@@ -1,0 +1,16 @@
+# runtime data (raids built from your screenshots/logs, caches)
+/data/
+
+__pycache__/
+*.pyc
+.venv/
+*.egg-info/
+build/
+dist/
+
+# graft's local graph cache — regenerable, not committed (run `graft build`).
+/graft/
+
+# editor and assistant settings of this machine (paths with the Windows user name)
+.idea/
+/.claude/

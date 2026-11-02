@@ -1,0 +1,313 @@
+2026-10-22 21:19:39.581|1.2.5.0.48146|Info|application|Application awaken, updateQueue:'Update'
+2026-10-22 21:19:39.581|1.2.5.0.48146|Info|application|Assert.raiseExceptions:'True'
+2026-10-22 21:19:39.587|1.2.5.0.48146|Info|application|driveType:SSD swapDriveType:SSD
+2026-10-22 21:19:46.712|1.2.5.0.48146|Info|application|NVIDIA Reflex is available on this machine, Status: NvReflex_OK.
+2026-10-22 21:19:54.774|1.2.5.0.48146|Info|application|Session mode: Pve
+2026-10-22 21:20:22.413|1.2.5.0.48146|Info|application|PrepareSelectedProfileLocally ProfileId:aaaaaaaaaaaaaaaaaaaa0001 AccountId:9999001
+2026-10-22 21:20:22.413|1.2.5.0.48146|Info|application|CompleteSelectedProfile ProfileId:aaaaaaaaaaaaaaaaaaaa0001 AccountId:9999001
+2026-10-22 21:20:31.302|1.2.5.0.48146|Debug|application|Start loading dll 'E:/SteamLibrary/steamapps/common/Escape from Tarkov/build/EscapeFromTarkov_Data/../BattlEye/BEClient_x64.dll'
+2026-10-22 21:20:31.954|1.2.5.0.48146|Debug|application|SUCCESS: loading dll 'E:/SteamLibrary/steamapps/common/Escape from Tarkov/build/EscapeFromTarkov_Data/../BattlEye/BEClient_x64.dll'
+2026-10-22 21:20:31.954|1.2.5.0.48146|Debug|application|Getting Proc Address for 'Init', dllPtr:'140735063130112'
+2026-10-22 21:20:31.954|1.2.5.0.48146|Debug|application|SUCCESS: getting proc address 'Init', dllPtr:'140735063130112'
+2026-10-22 21:20:31.954|1.2.5.0.48146|Debug|application|Getting Proc Address for 'GetVer', dllPtr:'140735063130112'
+2026-10-22 21:20:31.954|1.2.5.0.48146|Debug|application|SUCCESS: getting proc address 'GetVer', dllPtr:'140735063130112'
+2026-10-22 21:20:31.955|1.2.5.0.48146|Debug|application|Init: pstrGameVersion: Escape from Tarkov 1.2.5.0.48146, uiAddress: 0, usPort: 0
+2026-10-22 21:20:31.959|1.2.5.0.48146|Info|application|Initialized (v1.249)
+2026-10-22 21:20:31.959|1.2.5.0.48146|Info|application|BEClient inited successfully
+2026-10-22 21:20:31.959|1.2.5.0.48146|Debug|application|totalMemoryBeforeCleanUp 610.8477
+2026-10-22 21:20:31.959|1.2.5.0.48146|Debug|application|GC::Collect
+2026-10-22 21:20:32.164|1.2.5.0.48146|Debug|application|GC::Collect Aggressive
+2026-10-22 21:20:32.363|1.2.5.0.48146|Debug|application|collectedMemoryGB 30.14844
+2026-10-22 21:20:32.374|1.2.5.0.48146|Info|application|Config entry: GameID eft
+2026-10-22 21:20:32.374|1.2.5.0.48146|Info|application|Config entry: MasterPort 17000
+2026-10-22 21:20:32.520|1.2.5.0.48146|Info|application|Disposing BEClient
+2026-10-22 21:20:32.520|1.2.5.0.48146|Info|application|BEClient exit
+2026-10-22 21:20:32.622|1.2.5.0.48146|Info|application|BEClient exit successfully
+2026-10-22 21:20:32.622|1.2.5.0.48146|Debug|application|Releasing dll '140735063130112'
+2026-10-22 21:20:32.751|1.2.5.0.48146|Debug|application|SUCCESS: Dll released with code '1'
+2026-10-22 21:31:00.922|1.2.5.0.48146|Debug|application|GC::CollectAsync iteration: 0.01019287s True
+2026-10-22 21:31:00.929|1.2.5.0.48146|Debug|application|GC::CollectAsync iteration: 0.007019043s True
+2026-10-22 21:31:00.943|1.2.5.0.48146|Debug|application|GC::CollectAsync iteration: 0.007080078s True
+2026-10-22 21:31:00.957|1.2.5.0.48146|Debug|application|GC::CollectAsync iteration: 0.007019043s True
+2026-10-22 21:31:00.971|1.2.5.0.48146|Debug|application|GC::CollectAsync iteration: 0.007019043s True
+2026-10-22 21:31:01.015|1.2.5.0.48146|Debug|application|GC::CollectAsync iteration: 0.02374268s False
+2026-10-22 21:31:01.043|1.2.5.0.48146|Debug|application|GC::CollectAsync time 0.1309204s 896.2891 - collected 29.60156
+2026-10-22 21:32:24.499|1.2.5.0.48146|Debug|application|Matching with group id: 
+2026-10-22 21:32:24.499|1.2.5.0.48146|Info|application|ClientMetricsEvents():724.15
+2026-10-22 21:32:25.761|1.2.5.0.48146|Info|application|scene preset path:maps/shoreline_preset.bundle rcid:shoreline.scenespreset.asset
+2026-10-22 21:32:25.761|1.2.5.0.48146|Debug|application|TRACE-NetworkGameMatching G
+2026-10-22 21:32:27.961|1.2.5.0.48146|Debug|application|TRACE-NetworkGameMatching H
+2026-10-22 21:32:27.962|1.2.5.0.48146|Debug|application|TRACE-NetworkGameMatching I
+2026-10-22 21:33:06.111|1.2.5.0.48146|Info|application|LocationLoaded:30.4 real:41.61 diff:11.21
+2026-10-22 21:34:05.608|1.2.5.0.48146|Info|application|MatchingCompleted:89.71 real:101.1 diff:11.39
+2026-10-22 21:34:05.691|1.2.5.0.48146|Info|application|GamePrepared:89.78 real:101.19 diff:11.41
+2026-10-22 21:34:05.691|1.2.5.0.48146|Debug|application|TRACE-NetworkGameCreate 0
+2026-10-22 21:34:05.691|1.2.5.0.48146|Debug|application|TRACE-NetworkGameCreate 2
+2026-10-22 21:34:06.766|1.2.5.0.48146|Debug|application|TRACE-NetworkGameCreate 3
+2026-10-22 21:34:06.766|1.2.5.0.48146|Debug|application|TRACE-NetworkGameCreate profileStatus: 'Profileid: aaaaaaaaaaaaaaaaaaaa0001, Status: Busy, RaidMode: Online, Ip: 203.0.113.10, Port: 17007, Location: Shoreline, Sid: xx-xx00xxx003_bbbbbbbbbbbbbbbbbbbb0001_22.10.26_15-33-00, GameMode: deathmatch, shortId: XXXX02'
+2026-10-22 21:34:06.769|1.2.5.0.48146|Debug|application|TRACE-NetworkGameCreate 4
+2026-10-22 21:34:06.772|1.2.5.0.48146|Info|application|GameCreated:90.86(1.08) real:102.27(1.07) diff:11.4
+2026-10-22 21:34:06.772|1.2.5.0.48146|Debug|application|TRACE-NetworkGameCreate 5
+2026-10-22 21:35:06.084|1.2.5.0.48146|Info|application|GamePooled:149.38(58.52) real:161.57(59.3) diff:12.19
+2026-10-22 21:35:14.536|1.2.5.0.48146|Info|application|GameRunned:151.8(2.41) real:170.02(8.44) diff:18.22
+2026-10-22 21:35:14.647|1.2.5.0.48146|Info|application|GameSpawn:151.94(0.13) real:170.13(0.11) diff:18.19
+2026-10-22 21:35:15.551|1.2.5.0.48146|Info|application|PlayerSpawnEvent:152.84(0.89) real:171.03(0.89) diff:18.19
+2026-10-22 21:35:24.782|1.2.5.0.48146|Info|application|GameSpawned:161.62(8.77) real:180.26(9.22) diff:18.64
+2026-10-22 21:35:24.782|1.2.5.0.48146|Debug|application|Heap pre-allocation - disabled
+2026-10-22 21:35:24.811|1.2.5.0.48146|Debug|application|GC::CollectAsync iteration: 0.02325439s True
+2026-10-22 21:35:24.819|1.2.5.0.48146|Debug|application|GC::CollectAsync iteration: 0.007019043s True
+2026-10-22 21:35:24.835|1.2.5.0.48146|Debug|application|GC::CollectAsync iteration: 0.007080078s True
+2026-10-22 21:35:24.855|1.2.5.0.48146|Debug|application|GC::CollectAsync iteration: 0.007080078s True
+2026-10-22 21:35:24.877|1.2.5.0.48146|Debug|application|GC::CollectAsync iteration: 0.007080078s True
+2026-10-22 21:35:24.894|1.2.5.0.48146|Debug|application|GC::CollectAsync iteration: 0.007019043s True
+2026-10-22 21:35:24.912|1.2.5.0.48146|Debug|application|GC::CollectAsync iteration: 0.007080078s True
+2026-10-22 21:35:24.932|1.2.5.0.48146|Debug|application|GC::CollectAsync iteration: 0.007080078s True
+2026-10-22 21:35:24.950|1.2.5.0.48146|Debug|application|GC::CollectAsync iteration: 0.007080078s True
+2026-10-22 21:35:24.970|1.2.5.0.48146|Debug|application|GC::CollectAsync iteration: 0.007019043s True
+2026-10-22 21:35:24.988|1.2.5.0.48146|Debug|application|GC::CollectAsync iteration: 0.007080078s True
+2026-10-22 21:35:25.008|1.2.5.0.48146|Debug|application|GC::CollectAsync iteration: 0.007019043s True
+2026-10-22 21:35:25.027|1.2.5.0.48146|Debug|application|GC::CollectAsync iteration: 0.007080078s True
+2026-10-22 21:35:25.047|1.2.5.0.48146|Debug|application|GC::CollectAsync iteration: 0.007080078s True
+2026-10-22 21:35:25.063|1.2.5.0.48146|Debug|application|GC::CollectAsync iteration: 0.007080078s True
+2026-10-22 21:35:25.083|1.2.5.0.48146|Debug|application|GC::CollectAsync iteration: 0.007080078s True
+2026-10-22 21:35:25.101|1.2.5.0.48146|Debug|application|GC::CollectAsync iteration: 0.007019043s True
+2026-10-22 21:35:25.120|1.2.5.0.48146|Debug|application|GC::CollectAsync iteration: 0.007080078s True
+2026-10-22 21:35:25.135|1.2.5.0.48146|Debug|application|GC::CollectAsync iteration: 0.007080078s True
+2026-10-22 21:35:25.154|1.2.5.0.48146|Debug|application|GC::CollectAsync iteration: 0.007019043s True
+2026-10-22 21:35:25.171|1.2.5.0.48146|Debug|application|GC::CollectAsync iteration: 0.007019043s True
+2026-10-22 21:35:25.190|1.2.5.0.48146|Debug|application|GC::CollectAsync iteration: 0.007080078s True
+2026-10-22 21:35:25.209|1.2.5.0.48146|Debug|application|GC::CollectAsync iteration: 0.007080078s True
+2026-10-22 21:35:25.229|1.2.5.0.48146|Debug|application|GC::CollectAsync iteration: 0.007019043s True
+2026-10-22 21:35:25.248|1.2.5.0.48146|Debug|application|GC::CollectAsync iteration: 0.007080078s True
+2026-10-22 21:35:25.265|1.2.5.0.48146|Debug|application|GC::CollectAsync iteration: 0.007080078s True
+2026-10-22 21:35:25.282|1.2.5.0.48146|Debug|application|GC::CollectAsync iteration: 0.007019043s True
+2026-10-22 21:35:25.303|1.2.5.0.48146|Debug|application|GC::CollectAsync iteration: 0.007080078s True
+2026-10-22 21:35:25.322|1.2.5.0.48146|Debug|application|GC::CollectAsync iteration: 0.007080078s True
+2026-10-22 21:35:25.341|1.2.5.0.48146|Debug|application|GC::CollectAsync iteration: 0.007080078s True
+2026-10-22 21:35:25.360|1.2.5.0.48146|Debug|application|GC::CollectAsync iteration: 0.007080078s True
+2026-10-22 21:35:25.382|1.2.5.0.48146|Debug|application|GC::CollectAsync iteration: 0.007019043s True
+2026-10-22 21:35:25.401|1.2.5.0.48146|Debug|application|GC::CollectAsync iteration: 0.007141113s True
+2026-10-22 21:35:25.421|1.2.5.0.48146|Debug|application|GC::CollectAsync iteration: 0.007141113s True
+2026-10-22 21:35:25.440|1.2.5.0.48146|Debug|application|GC::CollectAsync iteration: 0.007202148s True
+2026-10-22 21:35:25.461|1.2.5.0.48146|Debug|application|GC::CollectAsync iteration: 0.007019043s True
+2026-10-22 21:35:25.479|1.2.5.0.48146|Debug|application|GC::CollectAsync iteration: 0.007080078s True
+2026-10-22 21:35:25.497|1.2.5.0.48146|Debug|application|GC::CollectAsync iteration: 0.007019043s True
+2026-10-22 21:35:25.517|1.2.5.0.48146|Debug|application|GC::CollectAsync iteration: 0.007080078s True
+2026-10-22 21:35:25.537|1.2.5.0.48146|Debug|application|GC::CollectAsync iteration: 0.007080078s True
+2026-10-22 21:35:25.552|1.2.5.0.48146|Debug|application|GC::CollectAsync iteration: 0.007080078s True
+2026-10-22 21:35:25.569|1.2.5.0.48146|Debug|application|GC::CollectAsync iteration: 0.007019043s True
+2026-10-22 21:35:25.586|1.2.5.0.48146|Debug|application|GC::CollectAsync iteration: 0.007019043s True
+2026-10-22 21:35:25.606|1.2.5.0.48146|Debug|application|GC::CollectAsync iteration: 0.007080078s True
+2026-10-22 21:35:25.622|1.2.5.0.48146|Debug|application|GC::CollectAsync iteration: 0.007019043s True
+2026-10-22 21:35:25.638|1.2.5.0.48146|Debug|application|GC::CollectAsync iteration: 0.007019043s True
+2026-10-22 21:35:25.656|1.2.5.0.48146|Debug|application|GC::CollectAsync iteration: 0.007080078s True
+2026-10-22 21:35:25.687|1.2.5.0.48146|Debug|application|GC::CollectAsync iteration: 0.007019043s True
+2026-10-22 21:35:25.705|1.2.5.0.48146|Debug|application|GC::CollectAsync iteration: 0.007019043s True
+2026-10-22 21:35:25.724|1.2.5.0.48146|Debug|application|GC::CollectAsync iteration: 0.007080078s True
+2026-10-22 21:35:25.740|1.2.5.0.48146|Debug|application|GC::CollectAsync iteration: 0.007019043s True
+2026-10-22 21:35:25.763|1.2.5.0.48146|Debug|application|GC::CollectAsync iteration: 0.007080078s True
+2026-10-22 21:35:25.778|1.2.5.0.48146|Debug|application|GC::CollectAsync iteration: 0.007019043s True
+2026-10-22 21:35:25.794|1.2.5.0.48146|Debug|application|GC::CollectAsync iteration: 0.007080078s True
+2026-10-22 21:35:25.811|1.2.5.0.48146|Debug|application|GC::CollectAsync iteration: 0.007019043s True
+2026-10-22 21:35:25.832|1.2.5.0.48146|Debug|application|GC::CollectAsync iteration: 0.007141113s True
+2026-10-22 21:35:25.849|1.2.5.0.48146|Debug|application|GC::CollectAsync iteration: 0.007080078s True
+2026-10-22 21:35:25.865|1.2.5.0.48146|Debug|application|GC::CollectAsync iteration: 0.007080078s True
+2026-10-22 21:35:25.883|1.2.5.0.48146|Debug|application|GC::CollectAsync iteration: 0.007019043s True
+2026-10-22 21:35:25.910|1.2.5.0.48146|Debug|application|GC::CollectAsync iteration: 0.007080078s True
+2026-10-22 21:35:25.927|1.2.5.0.48146|Debug|application|GC::CollectAsync iteration: 0.007080078s True
+2026-10-22 21:35:25.945|1.2.5.0.48146|Debug|application|GC::CollectAsync iteration: 0.007080078s True
+2026-10-22 21:35:25.962|1.2.5.0.48146|Debug|application|GC::CollectAsync iteration: 0.007019043s True
+2026-10-22 21:35:25.989|1.2.5.0.48146|Debug|application|GC::CollectAsync iteration: 0.007019043s True
+2026-10-22 21:35:26.004|1.2.5.0.48146|Debug|application|GC::CollectAsync iteration: 0.007019043s True
+2026-10-22 21:35:26.022|1.2.5.0.48146|Debug|application|GC::CollectAsync iteration: 0.007080078s True
+2026-10-22 21:35:26.040|1.2.5.0.48146|Debug|application|GC::CollectAsync iteration: 0.007019043s True
+2026-10-22 21:35:26.064|1.2.5.0.48146|Debug|application|GC::CollectAsync iteration: 0.007080078s True
+2026-10-22 21:35:26.080|1.2.5.0.48146|Debug|application|GC::CollectAsync iteration: 0.007080078s True
+2026-10-22 21:35:26.099|1.2.5.0.48146|Debug|application|GC::CollectAsync iteration: 0.007080078s True
+2026-10-22 21:35:26.117|1.2.5.0.48146|Debug|application|GC::CollectAsync iteration: 0.007019043s True
+2026-10-22 21:35:26.138|1.2.5.0.48146|Debug|application|GC::CollectAsync iteration: 0.007080078s True
+2026-10-22 21:35:26.154|1.2.5.0.48146|Debug|application|GC::CollectAsync iteration: 0.007019043s True
+2026-10-22 21:35:26.172|1.2.5.0.48146|Debug|application|GC::CollectAsync iteration: 0.007019043s True
+2026-10-22 21:35:26.189|1.2.5.0.48146|Debug|application|GC::CollectAsync iteration: 0.007080078s True
+2026-10-22 21:35:26.209|1.2.5.0.48146|Debug|application|GC::CollectAsync iteration: 0.007019043s True
+2026-10-22 21:35:26.227|1.2.5.0.48146|Debug|application|GC::CollectAsync iteration: 0.007080078s True
+2026-10-22 21:35:26.245|1.2.5.0.48146|Debug|application|GC::CollectAsync iteration: 0.007141113s True
+2026-10-22 21:35:26.263|1.2.5.0.48146|Debug|application|GC::CollectAsync iteration: 0.007080078s True
+2026-10-22 21:35:26.285|1.2.5.0.48146|Debug|application|GC::CollectAsync iteration: 0.007019043s True
+2026-10-22 21:35:26.303|1.2.5.0.48146|Debug|application|GC::CollectAsync iteration: 0.007019043s True
+2026-10-22 21:35:26.320|1.2.5.0.48146|Debug|application|GC::CollectAsync iteration: 0.007141113s True
+2026-10-22 21:35:26.339|1.2.5.0.48146|Debug|application|GC::CollectAsync iteration: 0.007385254s True
+2026-10-22 21:35:26.361|1.2.5.0.48146|Debug|application|GC::CollectAsync iteration: 0.008361816s True
+2026-10-22 21:35:26.381|1.2.5.0.48146|Debug|application|GC::CollectAsync iteration: 0.008178711s True
+2026-10-22 21:35:26.400|1.2.5.0.48146|Debug|application|GC::CollectAsync iteration: 0.007202148s True
+2026-10-22 21:35:26.469|1.2.5.0.48146|Debug|application|GC::CollectAsync iteration: 0.05383301s False
+2026-10-22 21:35:26.484|1.2.5.0.48146|Debug|application|GC::CollectAsync time 1.700806s 3271.332 - collected 599.6836
+2026-10-22 21:35:27.836|1.2.5.0.48146|Debug|application|GC mode switched to Disabled
+2026-10-22 21:35:29.202|1.2.5.0.48146|Info|application|GameStarting:164.74(3.12) real:184.68(4.41) diff:19.93
+2026-10-22 21:35:41.229|1.2.5.0.48146|Info|application|GameStarted:172.3(7.55) real:196.7(12.02) diff:24.39
+2026-10-22 21:35:41.262|1.2.5.0.48146|Debug|application|TRACE-NetworkGameCreate 6
+2026-10-22 21:35:41.676|1.2.5.0.48146|Info|application|[Transit] `aaaaaaaaaaaaaaaaaaaa0001` Count:0, EventPlayer:False
+2026-10-22 21:37:00.526|1.2.5.0.48146|Info|application|Reason:PacketsQueue, Position:(210.362, -64.128, 435.125), SpeedLimit:0.5927086, CurrentState:Idle, StrengthSummaryLevel:9, WalkSpeedLimit:0.9020661
+2026-10-22 21:37:31.347|1.2.5.0.48146|Info|application|Reason:PacketsQueue, Position:(206.996, -64.260, 437.993), SpeedLimit:3.666642, CurrentState:Run, StrengthSummaryLevel:9, WalkSpeedLimit:0.8849884
+2026-10-22 21:51:16.428|1.2.5.0.48146|Debug|application|totalMemoryBeforeCleanUp 3683.203
+2026-10-22 21:51:16.428|1.2.5.0.48146|Debug|application|GC mode switched to Enabled
+2026-10-22 21:51:16.428|1.2.5.0.48146|Debug|application|GC::Collect
+2026-10-22 21:51:16.933|1.2.5.0.48146|Debug|application|GC::Collect Aggressive
+2026-10-22 21:51:17.440|1.2.5.0.48146|Debug|application|collectedMemoryGB 2549.445
+2026-10-22 21:51:17.440|1.2.5.0.48146|Debug|application|GC mode switched to Disabled
+2026-10-22 21:51:17.440|1.2.5.0.48146|Info|application|PrepareSelectedProfileLocally ProfileId:aaaaaaaaaaaaaaaaaaaa0001 AccountId:9999001
+2026-10-22 21:51:18.813|1.2.5.0.48146|Info|application|PrepareSelectedProfileLocally ProfileId:aaaaaaaaaaaaaaaaaaaa0001 AccountId:9999001
+2026-10-22 21:51:18.817|1.2.5.0.48146|Info|application|CompleteSelectedProfile ProfileId:aaaaaaaaaaaaaaaaaaaa0001 AccountId:9999001
+2026-10-22 21:51:27.805|1.2.5.0.48146|Info|application|PrepareSelectedProfileLocally ProfileId:aaaaaaaaaaaaaaaaaaaa0001 AccountId:9999001
+2026-10-22 21:51:27.805|1.2.5.0.48146|Info|application|CompleteSelectedProfile ProfileId:aaaaaaaaaaaaaaaaaaaa0001 AccountId:9999001
+2026-10-22 21:51:30.910|1.2.5.0.48146|Debug|application|Start loading dll 'E:/SteamLibrary/steamapps/common/Escape from Tarkov/build/EscapeFromTarkov_Data/../BattlEye/BEClient_x64.dll'
+2026-10-22 21:51:31.679|1.2.5.0.48146|Debug|application|SUCCESS: loading dll 'E:/SteamLibrary/steamapps/common/Escape from Tarkov/build/EscapeFromTarkov_Data/../BattlEye/BEClient_x64.dll'
+2026-10-22 21:51:31.679|1.2.5.0.48146|Debug|application|Getting Proc Address for 'Init', dllPtr:'140734628560896'
+2026-10-22 21:51:31.679|1.2.5.0.48146|Debug|application|SUCCESS: getting proc address 'Init', dllPtr:'140734628560896'
+2026-10-22 21:51:31.679|1.2.5.0.48146|Debug|application|Getting Proc Address for 'GetVer', dllPtr:'140734628560896'
+2026-10-22 21:51:31.679|1.2.5.0.48146|Debug|application|SUCCESS: getting proc address 'GetVer', dllPtr:'140734628560896'
+2026-10-22 21:51:31.679|1.2.5.0.48146|Debug|application|Init: pstrGameVersion: Escape from Tarkov 1.2.5.0.48146, uiAddress: 0, usPort: 0
+2026-10-22 21:51:31.683|1.2.5.0.48146|Info|application|Initialized (v1.249)
+2026-10-22 21:51:31.683|1.2.5.0.48146|Info|application|BEClient inited successfully
+2026-10-22 21:51:31.702|1.2.5.0.48146|Info|application|Config entry: GameID eft
+2026-10-22 21:51:31.702|1.2.5.0.48146|Info|application|Config entry: MasterPort 17000
+2026-10-22 21:51:32.468|1.2.5.0.48146|Debug|application|GC mode switched to Enabled
+2026-10-22 21:51:33.372|1.2.5.0.48146|Info|application|Disposing BEClient
+2026-10-22 21:51:33.372|1.2.5.0.48146|Info|application|BEClient exit
+2026-10-22 21:51:33.474|1.2.5.0.48146|Info|application|BEClient exit successfully
+2026-10-22 21:51:33.474|1.2.5.0.48146|Debug|application|Releasing dll '140734628560896'
+2026-10-22 21:51:33.630|1.2.5.0.48146|Debug|application|SUCCESS: Dll released with code '1'
+2026-10-22 21:59:06.640|1.2.5.0.48146|Debug|application|Matching with group id: 
+2026-10-22 21:59:06.640|1.2.5.0.48146|Info|application|ClientMetricsEvents():2256.61
+2026-10-22 21:59:07.680|1.2.5.0.48146|Info|application|scene preset path:maps/customs_preset.bundle rcid:bigmap.scenespreset.asset
+2026-10-22 21:59:07.680|1.2.5.0.48146|Debug|application|TRACE-NetworkGameMatching G
+2026-10-22 21:59:14.000|1.2.5.0.48146|Debug|application|TRACE-NetworkGameMatching H
+2026-10-22 21:59:14.001|1.2.5.0.48146|Debug|application|TRACE-NetworkGameMatching I
+2026-10-22 21:59:37.561|1.2.5.0.48146|Info|application|LocationLoaded:23.05 real:30.91 diff:7.86
+2026-10-22 22:03:25.494|1.2.5.0.48146|Info|application|MatchingCompleted:250.58 real:258.82 diff:8.24
+2026-10-22 22:03:25.557|1.2.5.0.48146|Info|application|GamePrepared:250.71 real:258.88 diff:8.16
+2026-10-22 22:03:25.557|1.2.5.0.48146|Debug|application|TRACE-NetworkGameCreate 0
+2026-10-22 22:03:25.557|1.2.5.0.48146|Debug|application|TRACE-NetworkGameCreate 2
+2026-10-22 22:03:25.956|1.2.5.0.48146|Debug|application|TRACE-NetworkGameCreate 3
+2026-10-22 22:03:25.956|1.2.5.0.48146|Debug|application|TRACE-NetworkGameCreate profileStatus: 'Profileid: aaaaaaaaaaaaaaaaaaaa0001, Status: Busy, RaidMode: Online, Ip: 203.0.113.11, Port: 17001, Location: bigmap, Sid: XX-XX00X002_bbbbbbbbbbbbbbbbbbbb0002_22.10.26_16-01-42, GameMode: deathmatch, shortId: XXXX03'
+2026-10-22 22:03:25.956|1.2.5.0.48146|Debug|application|TRACE-NetworkGameCreate 4
+2026-10-22 22:03:25.958|1.2.5.0.48146|Info|application|GameCreated:251.11(0.39) real:259.28(0.39) diff:8.16
+2026-10-22 22:03:25.958|1.2.5.0.48146|Debug|application|TRACE-NetworkGameCreate 5
+2026-10-22 22:04:00.755|1.2.5.0.48146|Info|application|GamePooled:285.27(34.15) real:294.07(34.79) diff:8.8
+2026-10-22 22:04:08.010|1.2.5.0.48146|Info|application|GameRunned:287.66(2.39) real:301.33(7.25) diff:13.66
+2026-10-22 22:04:08.114|1.2.5.0.48146|Info|application|GameSpawn:287.77(0.1) real:301.43(0.1) diff:13.66
+2026-10-22 22:04:08.968|1.2.5.0.48146|Info|application|PlayerSpawnEvent:288.62(0.85) real:302.29(0.86) diff:13.67
+2026-10-22 22:04:15.305|1.2.5.0.48146|Info|application|GameSpawned:294.92(6.3) real:308.62(6.32) diff:13.69
+2026-10-22 22:04:15.305|1.2.5.0.48146|Debug|application|Heap pre-allocation - disabled
+2026-10-22 22:04:15.315|1.2.5.0.48146|Debug|application|GC::CollectAsync iteration: 0.01025391s True
+2026-10-22 22:04:15.324|1.2.5.0.48146|Debug|application|GC::CollectAsync iteration: 0.007080078s True
+2026-10-22 22:04:15.341|1.2.5.0.48146|Debug|application|GC::CollectAsync iteration: 0.007080078s True
+2026-10-22 22:04:15.358|1.2.5.0.48146|Debug|application|GC::CollectAsync iteration: 0.006835938s True
+2026-10-22 22:04:15.376|1.2.5.0.48146|Debug|application|GC::CollectAsync iteration: 0.007080078s True
+2026-10-22 22:04:15.394|1.2.5.0.48146|Debug|application|GC::CollectAsync iteration: 0.007080078s True
+2026-10-22 22:04:15.411|1.2.5.0.48146|Debug|application|GC::CollectAsync iteration: 0.007080078s True
+2026-10-22 22:04:15.429|1.2.5.0.48146|Debug|application|GC::CollectAsync iteration: 0.007080078s True
+2026-10-22 22:04:15.447|1.2.5.0.48146|Debug|application|GC::CollectAsync iteration: 0.007080078s True
+2026-10-22 22:04:15.465|1.2.5.0.48146|Debug|application|GC::CollectAsync iteration: 0.007080078s True
+2026-10-22 22:04:15.483|1.2.5.0.48146|Debug|application|GC::CollectAsync iteration: 0.007080078s True
+2026-10-22 22:04:15.501|1.2.5.0.48146|Debug|application|GC::CollectAsync iteration: 0.007080078s True
+2026-10-22 22:04:15.519|1.2.5.0.48146|Debug|application|GC::CollectAsync iteration: 0.007080078s True
+2026-10-22 22:04:15.536|1.2.5.0.48146|Debug|application|GC::CollectAsync iteration: 0.007080078s True
+2026-10-22 22:04:15.558|1.2.5.0.48146|Debug|application|GC::CollectAsync iteration: 0.007080078s True
+2026-10-22 22:04:15.823|1.2.5.0.48146|Debug|application|GC::CollectAsync iteration: 0.06982422s False
+2026-10-22 22:04:15.833|1.2.5.0.48146|Debug|application|GC::CollectAsync time 0.527832s 2883.41 - collected 150.4961
+2026-10-22 22:04:16.918|1.2.5.0.48146|Debug|application|GC mode switched to Disabled
+2026-10-22 22:04:18.093|1.2.5.0.48146|Info|application|GameStarting:296.56(1.63) real:311.41(2.79) diff:14.85
+2026-10-22 22:04:30.088|1.2.5.0.48146|Info|application|GameStarted:306.94(10.38) real:323.4(11.98) diff:16.45
+2026-10-22 22:04:30.120|1.2.5.0.48146|Debug|application|TRACE-NetworkGameCreate 6
+2026-10-22 22:04:30.511|1.2.5.0.48146|Info|application|[Transit] `aaaaaaaaaaaaaaaaaaaa0001` Count:0, EventPlayer:False
+2026-10-22 22:04:39.113|1.2.5.0.48146|Info|application|Reason:PacketsQueue, Position:(-148.302, 1.608, -143.646), SpeedLimit:0.65, CurrentState:Idle, StrengthSummaryLevel:9, WalkSpeedLimit:1
+2026-10-22 22:13:23.272|1.2.5.0.48146|Debug|application|totalMemoryBeforeCleanUp 3215.121
+2026-10-22 22:13:23.272|1.2.5.0.48146|Debug|application|GC mode switched to Enabled
+2026-10-22 22:13:23.272|1.2.5.0.48146|Debug|application|GC::Collect
+2026-10-22 22:13:24.142|1.2.5.0.48146|Debug|application|GC::Collect Aggressive
+2026-10-22 22:13:24.950|1.2.5.0.48146|Debug|application|collectedMemoryGB 618.8398
+2026-10-22 22:13:24.950|1.2.5.0.48146|Debug|application|GC mode switched to Disabled
+2026-10-22 22:13:44.667|1.2.5.0.48146|Info|application|PrepareSelectedProfileLocally ProfileId:aaaaaaaaaaaaaaaaaaaa0001 AccountId:9999001
+2026-10-22 22:13:44.668|1.2.5.0.48146|Info|application|CompleteSelectedProfile ProfileId:aaaaaaaaaaaaaaaaaaaa0001 AccountId:9999001
+2026-10-22 22:13:47.616|1.2.5.0.48146|Debug|application|Start loading dll 'E:/SteamLibrary/steamapps/common/Escape from Tarkov/build/EscapeFromTarkov_Data/../BattlEye/BEClient_x64.dll'
+2026-10-22 22:13:48.388|1.2.5.0.48146|Debug|application|SUCCESS: loading dll 'E:/SteamLibrary/steamapps/common/Escape from Tarkov/build/EscapeFromTarkov_Data/../BattlEye/BEClient_x64.dll'
+2026-10-22 22:13:48.388|1.2.5.0.48146|Debug|application|Getting Proc Address for 'Init', dllPtr:'140734628560896'
+2026-10-22 22:13:48.388|1.2.5.0.48146|Debug|application|SUCCESS: getting proc address 'Init', dllPtr:'140734628560896'
+2026-10-22 22:13:48.388|1.2.5.0.48146|Debug|application|Getting Proc Address for 'GetVer', dllPtr:'140734628560896'
+2026-10-22 22:13:48.388|1.2.5.0.48146|Debug|application|SUCCESS: getting proc address 'GetVer', dllPtr:'140734628560896'
+2026-10-22 22:13:48.388|1.2.5.0.48146|Debug|application|Init: pstrGameVersion: Escape from Tarkov 1.2.5.0.48146, uiAddress: 0, usPort: 0
+2026-10-22 22:13:48.392|1.2.5.0.48146|Info|application|Initialized (v1.249)
+2026-10-22 22:13:48.392|1.2.5.0.48146|Info|application|BEClient inited successfully
+2026-10-22 22:13:48.411|1.2.5.0.48146|Info|application|Config entry: GameID eft
+2026-10-22 22:13:48.411|1.2.5.0.48146|Info|application|Config entry: MasterPort 17000
+2026-10-22 22:13:48.531|1.2.5.0.48146|Info|application|Disposing BEClient
+2026-10-22 22:13:48.531|1.2.5.0.48146|Info|application|BEClient exit
+2026-10-22 22:13:48.633|1.2.5.0.48146|Info|application|BEClient exit successfully
+2026-10-22 22:13:48.633|1.2.5.0.48146|Debug|application|Releasing dll '140734628560896'
+2026-10-22 22:13:48.796|1.2.5.0.48146|Debug|application|SUCCESS: Dll released with code '1'
+2026-10-22 22:13:48.854|1.2.5.0.48146|Info|application|Transit reconnect status:MatchWait raidMode:Online location:Shoreline settingsLocal:False
+2026-10-22 22:13:48.854|1.2.5.0.48146|Info|application|ClientMetricsEvents():3090.52
+2026-10-22 22:13:48.854|1.2.5.0.48146|Info|application|scene preset path:maps/shoreline_preset.bundle rcid:shoreline.scenespreset.asset
+2026-10-22 22:13:48.854|1.2.5.0.48146|Debug|application|TRACE-NetworkGameMatching G
+2026-10-22 22:13:55.020|1.2.5.0.48146|Debug|application|TRACE-NetworkGameMatching H
+2026-10-22 22:13:55.020|1.2.5.0.48146|Debug|application|TRACE-NetworkGameMatching I
+2026-10-22 22:14:21.409|1.2.5.0.48146|Info|application|LocationLoaded:25.06 real:32.55 diff:7.49
+2026-10-22 22:19:24.163|1.2.5.0.48146|Info|application|GamePrepared:327.82 real:335.26 diff:7.44
+2026-10-22 22:19:24.163|1.2.5.0.48146|Debug|application|TRACE-NetworkGameCreate 0
+2026-10-22 22:19:24.163|1.2.5.0.48146|Debug|application|TRACE-NetworkGameCreate 2
+2026-10-22 22:19:24.544|1.2.5.0.48146|Debug|application|TRACE-NetworkGameCreate 3
+2026-10-22 22:19:24.544|1.2.5.0.48146|Debug|application|TRACE-NetworkGameCreate profileStatus: 'Profileid: aaaaaaaaaaaaaaaaaaaa0001, Status: Busy, RaidMode: Online, Ip: 203.0.113.10, Port: 17012, Location: Shoreline, Sid: xx-xx00xxx003_bbbbbbbbbbbbbbbbbbbb0003_22.10.26_16-18-14, GameMode: deathmatch, shortId: XXXX04'
+2026-10-22 22:19:24.544|1.2.5.0.48146|Debug|application|TRACE-NetworkGameCreate 4
+2026-10-22 22:19:24.545|1.2.5.0.48146|Info|application|GameCreated:328.19(0.36) real:335.64(0.38) diff:7.45
+2026-10-22 22:19:24.545|1.2.5.0.48146|Debug|application|TRACE-NetworkGameCreate 5
+2026-10-22 22:19:53.938|1.2.5.0.48146|Info|application|GamePooled:356.91(28.72) real:365.03(29.38) diff:8.11
+2026-10-22 22:20:01.672|1.2.5.0.48146|Info|application|GameRunned:359.24(2.32) real:372.76(7.73) diff:13.52
+2026-10-22 22:20:01.797|1.2.5.0.48146|Info|application|GameSpawn:359.38(0.14) real:372.89(0.13) diff:13.51
+2026-10-22 22:20:02.553|1.2.5.0.48146|Info|application|PlayerSpawnEvent:360.12(0.73) real:373.65(0.75) diff:13.52
+2026-10-22 22:20:13.079|1.2.5.0.48146|Info|application|GameSpawned:370.39(10.27) real:384.17(10.52) diff:13.77
+2026-10-22 22:20:13.079|1.2.5.0.48146|Debug|application|Heap pre-allocation - disabled
+2026-10-22 22:20:13.079|1.2.5.0.48146|Debug|application|GC::CollectAsync iteration: 0s False
+2026-10-22 22:20:13.080|1.2.5.0.48146|Debug|application|GC::CollectAsync time 0.0009765625s 7831.227 - collected -0.0078125
+2026-10-22 22:20:16.656|1.2.5.0.48146|Info|application|GameStarting:371.84(1.44) real:387.75(3.57) diff:15.91
+2026-10-22 22:20:28.735|1.2.5.0.48146|Info|application|GameStarted:382.17(10.33) real:399.82(12.07) diff:17.64
+2026-10-22 22:20:28.752|1.2.5.0.48146|Debug|application|TRACE-NetworkGameCreate 6
+2026-10-22 22:20:29.016|1.2.5.0.48146|Info|application|[Transit] `aaaaaaaaaaaaaaaaaaaa0001` Count:1, EventPlayer:False
+2026-10-22 22:20:49.884|1.2.5.0.48146|Info|application|Reason:PacketsQueue, Position:(289.453, -56.376, 279.062), SpeedLimit:7.15, CurrentState:Sprint, StrengthSummaryLevel:9, WalkSpeedLimit:1
+2026-10-22 22:28:29.656|1.2.5.0.48146|Info|application|Reason:PacketsQueue, Position:(-212.638, -11.025, -233.783), SpeedLimit:7.15, CurrentState:Sprint, StrengthSummaryLevel:9, WalkSpeedLimit:1
+2026-10-22 22:31:06.157|1.2.5.0.48146|Info|application|Reason:PacketsQueue, Position:(-302.496, -5.141, -96.167), SpeedLimit:0.65, CurrentState:Idle, StrengthSummaryLevel:9, WalkSpeedLimit:1
+2026-10-22 22:31:06.990|1.2.5.0.48146|Info|application|Reason:PacketsQueue, Position:(-302.496, -5.141, -96.167), SpeedLimit:0.65, CurrentState:Idle, StrengthSummaryLevel:9, WalkSpeedLimit:1
+2026-10-22 22:33:41.816|1.2.5.0.48146|Info|application|Reason:PacketsQueue, Position:(-301.052, 2.053, -89.023), SpeedLimit:0.65, CurrentState:Idle, StrengthSummaryLevel:9, WalkSpeedLimit:1
+2026-10-22 22:36:09.617|1.2.5.0.48146|Info|application|Reason:PacketsQueue, Position:(-308.263, -3.671, -84.127), SpeedLimit:7.15, CurrentState:Sprint, StrengthSummaryLevel:9, WalkSpeedLimit:0.995741
+2026-10-22 22:38:49.921|1.2.5.0.48146|Info|application|Reason:PacketsQueue, Position:(-231.082, -0.820, -93.772), SpeedLimit:0.643796, CurrentState:Idle, StrengthSummaryLevel:9, WalkSpeedLimit:0.9893948
+2026-10-22 22:41:28.462|1.2.5.0.48146|Info|application|Reason:PacketsQueue, Position:(-211.511, -3.653, -100.253), SpeedLimit:7.15, CurrentState:Sprint, StrengthSummaryLevel:9, WalkSpeedLimit:0.9555134
+2026-10-22 22:47:24.621|1.2.5.0.48146|Info|application|Reason:PacketsQueue, Position:(-360.814, -4.822, -99.798), SpeedLimit:0.5368975, CurrentState:Idle, StrengthSummaryLevel:9, WalkSpeedLimit:0.8066624
+2026-10-22 22:59:33.203|1.2.5.0.48146|Info|application|Reason:PacketsQueue, Position:(-542.738, -18.197, -377.503), SpeedLimit:0.4774725, CurrentState:ProneIdle, StrengthSummaryLevel:9, WalkSpeedLimit:0.7050812
+2026-10-22 22:59:58.970|1.2.5.0.48146|Debug|application|totalMemoryBeforeCleanUp 11086.69
+2026-10-22 22:59:58.970|1.2.5.0.48146|Debug|application|GC mode switched to Enabled
+2026-10-22 22:59:58.970|1.2.5.0.48146|Debug|application|GC::Collect
+2026-10-22 23:00:01.087|1.2.5.0.48146|Debug|application|GC::Collect Aggressive
+2026-10-22 23:00:02.026|1.2.5.0.48146|Debug|application|collectedMemoryGB 8906.516
+2026-10-22 23:00:02.026|1.2.5.0.48146|Debug|application|GC mode switched to Disabled
+2026-10-22 23:00:02.026|1.2.5.0.48146|Info|application|PrepareSelectedProfileLocally ProfileId:aaaaaaaaaaaaaaaaaaaa0001 AccountId:9999001
+2026-10-22 23:00:03.416|1.2.5.0.48146|Info|application|PrepareSelectedProfileLocally ProfileId:aaaaaaaaaaaaaaaaaaaa0001 AccountId:9999001
+2026-10-22 23:00:03.417|1.2.5.0.48146|Info|application|CompleteSelectedProfile ProfileId:aaaaaaaaaaaaaaaaaaaa0001 AccountId:9999001
+2026-10-22 23:03:05.942|1.2.5.0.48146|Info|application|PrepareSelectedProfileLocally ProfileId:aaaaaaaaaaaaaaaaaaaa0001 AccountId:9999001
+2026-10-22 23:03:05.942|1.2.5.0.48146|Info|application|CompleteSelectedProfile ProfileId:aaaaaaaaaaaaaaaaaaaa0001 AccountId:9999001
+2026-10-22 23:03:09.141|1.2.5.0.48146|Debug|application|Start loading dll 'E:/SteamLibrary/steamapps/common/Escape from Tarkov/build/EscapeFromTarkov_Data/../BattlEye/BEClient_x64.dll'
+2026-10-22 23:03:09.838|1.2.5.0.48146|Debug|application|SUCCESS: loading dll 'E:/SteamLibrary/steamapps/common/Escape from Tarkov/build/EscapeFromTarkov_Data/../BattlEye/BEClient_x64.dll'
+2026-10-22 23:03:09.838|1.2.5.0.48146|Debug|application|Getting Proc Address for 'Init', dllPtr:'140734628560896'
+2026-10-22 23:03:09.838|1.2.5.0.48146|Debug|application|SUCCESS: getting proc address 'Init', dllPtr:'140734628560896'
+2026-10-22 23:03:09.838|1.2.5.0.48146|Debug|application|Getting Proc Address for 'GetVer', dllPtr:'140734628560896'
+2026-10-22 23:03:09.838|1.2.5.0.48146|Debug|application|SUCCESS: getting proc address 'GetVer', dllPtr:'140734628560896'
+2026-10-22 23:03:09.838|1.2.5.0.48146|Debug|application|Init: pstrGameVersion: Escape from Tarkov 1.2.5.0.48146, uiAddress: 0, usPort: 0
+2026-10-22 23:03:09.841|1.2.5.0.48146|Info|application|Initialized (v1.249)
+2026-10-22 23:03:09.841|1.2.5.0.48146|Info|application|BEClient inited successfully
+2026-10-22 23:03:09.860|1.2.5.0.48146|Info|application|Config entry: GameID eft
+2026-10-22 23:03:09.860|1.2.5.0.48146|Info|application|Config entry: MasterPort 17000
+2026-10-22 23:03:10.705|1.2.5.0.48146|Debug|application|GC mode switched to Enabled
+2026-10-22 23:03:12.076|1.2.5.0.48146|Info|application|Disposing BEClient
+2026-10-22 23:03:12.076|1.2.5.0.48146|Info|application|BEClient exit
+2026-10-22 23:03:12.177|1.2.5.0.48146|Info|application|BEClient exit successfully
+2026-10-22 23:03:12.177|1.2.5.0.48146|Debug|application|Releasing dll '140734628560896'
+2026-10-22 23:03:12.332|1.2.5.0.48146|Debug|application|SUCCESS: Dll released with code '1'

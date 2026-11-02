@@ -1,0 +1,206 @@
+2026-08-12 20:41:41.545|1.1.0.1.46699|Info|push-notifications|NotificationManager: new params received url:  ws:wss://wsn-pve-02.escapefromtarkov.com/push/notifier/getwebsocket/xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+2026-08-12 20:41:53.806|1.1.0.1.46699|Info|push-notifications|Got notification | ChatMessageReceived
+{
+  "type": "new_message",
+  "eventId": "bbbbbbbbbbbbbbbbbbbb0002",
+  "dialogId": "bbbbbbbbbbbbbbbbbbbb0003",
+  "message": {
+    "_id": "bbbbbbbbbbbbbbbbbbbb0004",
+    "uid": "bbbbbbbbbbbbbbbbbbbb0003",
+    "type": 10,
+    "dt": 1786534913,
+    "text": "quest started",
+    "templateId": "bbbbbbbbbbbbbbbbbbbb0005 description",
+    "hasRewards": false,
+    "maxStorageTime": 1209600
+  }
+}
+2026-08-12 20:41:53.806|1.1.0.1.46699|Info|push-notifications|NotificationManager.ProcessMessage | Received notification: Type: ChatMessageReceived, Time: 0, Duration: Default, ShowNotification: False
+2026-08-12 20:56:41.115|1.1.0.1.46699|Info|push-notifications|NotificationManager: new params received url:  ws:wss://wsn-pve-02.escapefromtarkov.com/push/notifier/getwebsocket/xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+2026-08-12 20:57:07.210|1.1.0.1.46699|Info|push-notifications|NotificationManager: new params received url:  ws:wss://wsn-pvp-season-02.escapefromtarkov.com/push/notifier/getwebsocket/xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+2026-08-12 20:59:15.743|1.1.0.1.46699|Info|push-notifications|Got notification | GroupMatchRaidSettings
+{
+  "type": "groupMatchRaidSettings",
+  "eventId": "bbbbbbbbbbbbbbbbbbbb0006",
+  "raidSettings": {
+    "location": "Sandbox",
+    "timeVariant": "CURR",
+    "raidMode": "Online",
+    "metabolismDisabled": false,
+    "playersSpawnPlace": "SamePlace",
+    "timeAndWeatherSettings": {
+      "isRandomTime": false,
+      "isRandomWeather": false,
+      "cloudinessType": "Clear",
+      "rainType": "NoRain",
+      "fogType": "NoFog",
+      "windType": "Light",
+      "timeFlowType": "x1",
+      "hourOfDay": -1
+    },
+    "botSettings": {
+      "isScavWars": false,
+      "botAmount": "AsOnline"
+    },
+    "wavesSettings": {
+      "botAmount": "AsOnline",
+      "botDifficulty": "AsOnline",
+      "isBosses": true,
+      "isTaggedAndCursed": false
+    },
+    "side": "Pmc",
+    "transitionType": 1,
+    "onlinePveRaidStates": {
+      "Lighthouse": false,
+      "Sandbox_high": false,
+      "Terminal_ui": false,
+      "factory4_day": false,
+      "Sandbox": false,
+      "laboratory_dark": false,
+      "Shoreline": false,
+      "Suburbs": false,
+      "TarkovStreets": false,
+      "hideout": false,
+      "Labyrinth": false,
+      "laboratory": false,
+      "Town": false,
+      "Private Area": false,
+      "Icebreaker": false,
+      "RezervBase": false,
+      "Woods": false,
+      "factory4_night": false,
+      "develop": false,
+      "Sandbox_start": false,
+      "bigmap": false,
+      "Terminal": false,
+      "Interchange": false,
+      "Lighthouse2": false
+    },
+    "timings": []
+  }
+}
+2026-08-12 20:59:15.743|1.1.0.1.46699|Info|push-notifications|NotificationManager.ProcessMessage | Received notification: Type: GroupMatchRaidSettings, Time: 0, Duration: Default, ShowNotification: False
+2026-08-12 21:00:44.215|1.1.0.1.46699|Info|push-notifications|Got notification | GroupMatchRaidSettings
+{
+  "type": "groupMatchRaidSettings",
+  "eventId": "bbbbbbbbbbbbbbbbbbbb0007",
+  "raidSettings": {
+    "location": "Sandbox",
+    "timeVariant": "CURR",
+    "raidMode": "Online",
+    "metabolismDisabled": false,
+    "playersSpawnPlace": "SamePlace",
+    "timeAndWeatherSettings": {
+      "isRandomTime": false,
+      "isRandomWeather": false,
+      "cloudinessType": "Clear",
+      "rainType": "NoRain",
+      "fogType": "NoFog",
+      "windType": "Light",
+      "timeFlowType": "x1",
+      "hourOfDay": -1
+    },
+    "botSettings": {
+      "isScavWars": false,
+      "botAmount": "AsOnline"
+    },
+    "wavesSettings": {
+      "botAmount": "AsOnline",
+      "botDifficulty": "AsOnline",
+      "isBosses": true,
+      "isTaggedAndCursed": false
+    },
+    "side": "Pmc",
+    "transitionType": 1,
+    "onlinePveRaidStates": {
+      "Lighthouse": false,
+      "Sandbox_high": false,
+      "Terminal_ui": false,
+      "factory4_day": false,
+      "Sandbox": false,
+      "laboratory_dark": false,
+      "Shoreline": false,
+      "Suburbs": false,
+      "TarkovStreets": false,
+      "hideout": false,
+      "Labyrinth": false,
+      "laboratory": false,
+      "Town": false,
+      "Private Area": false,
+      "Icebreaker": false,
+      "RezervBase": false,
+      "Woods": false,
+      "factory4_night": false,
+      "develop": false,
+      "Sandbox_start": false,
+      "bigmap": false,
+      "Terminal": false,
+      "Interchange": false,
+      "Lighthouse2": false
+    },
+    "timings": []
+  }
+}
+2026-08-12 21:00:44.216|1.1.0.1.46699|Info|push-notifications|NotificationManager.ProcessMessage | Received notification: Type: GroupMatchRaidSettings, Time: 0, Duration: Default, ShowNotification: False
+2026-08-12 21:01:18.454|1.1.0.1.46699|Info|push-notifications|Got notification | GroupMatchStartGame
+{
+  "type": "groupMatchStartGame",
+  "eventId": "bbbbbbbbbbbbbbbbbbbb0008",
+  "groupId": "bbbbbbbbbbbbbbbbbbbb0009",
+  "estimate": 210
+}
+2026-08-12 21:01:18.454|1.1.0.1.46699|Info|push-notifications|NotificationManager.ProcessMessage | Received notification: Type: GroupMatchStartGame, Time: 0, Duration: Default, ShowNotification: True
+2026-08-12 21:01:18.547|1.1.0.1.46699|Info|push-notifications|Got notification | UserMatchCreated
+{
+  "type": "userMatchCreated",
+  "eventId": "bbbbbbbbbbbbbbbbbbbb000a",
+  "blockExitButton": true,
+  "blockExitButtonDuration": 0,
+  "showConfirmationPopup": false
+}
+2026-08-12 21:01:18.547|1.1.0.1.46699|Info|push-notifications|NotificationManager.ProcessMessage | Received notification: Type: UserMatchCreated, Time: 0, Duration: Default, ShowNotification: False
+2026-08-12 21:03:58.663|1.1.0.1.46699|Info|push-notifications|Got notification | UserRoomStarted
+{
+  "type": "userRoomStarted",
+  "eventId": "bbbbbbbbbbbbbbbbbbbb000b",
+  "blockExitButton": true,
+  "blockExitButtonDuration": 0,
+  "showConfirmationPopup": false
+}
+2026-08-12 21:03:58.664|1.1.0.1.46699|Info|push-notifications|NotificationManager.ProcessMessage | Received notification: Type: UserRoomStarted, Time: 0, Duration: Default, ShowNotification: False
+2026-08-12 21:05:04.516|1.1.0.1.46699|Info|push-notifications|Got notification | UserConfirmed
+{
+  "type": "userConfirmed",
+  "eventId": "bbbbbbbbbbbbbbbbbbbb000c",
+  "profileid": "aaaaaaaaaaaaaaaaaaaa0002",
+  "profileToken": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+  "status": "Busy",
+  "ip": "203.0.113.10",
+  "port": 17003,
+  "sid": "XX-XX00X001_bbbbbbbbbbbbbbbbbbbb0001_12.08.26_15-03-58",
+  "version": "live",
+  "location": "Sandbox",
+  "raidMode": "Online",
+  "mode": "deathmatch",
+  "shortId": "XXXX01",
+  "additional_info": []
+}
+2026-08-12 21:34:05.222|1.1.0.1.46699|Info|push-notifications|NotificationManager: new params received url:  ws:wss://wsn-pvp-season-01.escapefromtarkov.com/push/notifier/getwebsocket/xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+2026-08-12 21:34:50.073|1.1.0.1.46699|Info|push-notifications|NotificationManager: new params received url:  ws:wss://wsn-pve-01.escapefromtarkov.com/push/notifier/getwebsocket/xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+2026-08-12 21:37:20.751|1.1.0.1.46699|Info|push-notifications|Got notification | UserMatchOver
+{
+  "type": "userMatchOver",
+  "eventId": "bbbbbbbbbbbbbbbbbbbb000d",
+  "profileid": "aaaaaaaaaaaaaaaaaaaa0001",
+  "profileToken": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+  "status": "Free",
+  "ip": "",
+  "port": 0,
+  "sid": "",
+  "version": "live",
+  "location": "TarkovStreets",
+  "raidMode": "Online",
+  "mode": "deathmatch",
+  "shortId": null,
+  "additional_info": null
+}

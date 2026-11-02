@@ -1,0 +1,124 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>MY EFT JOURNEY</title>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Cpath d='M4 26 L12 12 L19 18 L28 5' fill='none' stroke='%232f8cff' stroke-width='4' stroke-linecap='round' stroke-linejoin='round'/%3E%3Cpath d='M22 22 L30 30 M30 22 L22 30' stroke='%23ff2e2e' stroke-width='3.5' stroke-linecap='round'/%3E%3C/svg%3E">
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+  <link rel="stylesheet" href="/viewer/style.css">
+</head>
+<body>
+<div id="app">
+  <header id="topbar">
+    <button id="toggle-sidebar" class="icon-btn" title="레이드 목록" aria-label="레이드 목록 열기/닫기">&#9776;</button>
+    <h1>MY EFT <span>JOURNEY</span></h1>
+    <div id="raid-title" class="raid-title"></div>
+    <div class="spacer"></div>
+    <div id="status" class="status"><span class="dot"></span><span class="label">연결 중…</span></div>
+    <details id="scan-warnings" class="scan-warnings hidden">
+      <summary>주의 <span class="sw-count">0</span></summary>
+      <div class="sw-panel">
+        <div class="title">스캔 주의 사항</div>
+        <ul></ul>
+      </div>
+    </details>
+  </header>
+
+  <aside id="sidebar">
+    <div class="sidebar-head">
+      <select id="map-filter" aria-label="맵 필터"><option value="">모든 맵</option></select>
+      <label class="chk"><input type="checkbox" id="only-tracked" checked> 위치 기록이 있는 레이드만</label>
+    </div>
+    <ul id="raid-list"></ul>
+  </aside>
+
+  <main id="main">
+    <div id="map"></div>
+    <div id="empty" class="empty hidden"></div>
+    <section id="summary" class="card hidden"></section>
+    <section id="layers" class="card hidden"></section>
+
+    <section id="editor" class="card hidden" aria-label="레이드 편집">
+      <div class="ed-head">
+        <h3>레이드 기록 편집</h3>
+        <button class="icon-btn" id="ed-close" title="닫기">&#10005;</button>
+      </div>
+      <div class="ed-body">
+        <div class="ed-section">
+          <h4>결과</h4>
+          <div class="field-row"><label for="ed-status">결과</label>
+            <select id="ed-status">
+              <option value="unknown">미상</option>
+              <option value="survived">생존 (탈출)</option>
+              <option value="killed">사망</option>
+              <option value="mia">MIA (시간 초과)</option>
+              <option value="runthrough">런스루</option>
+              <option value="transit">트랜짓</option>
+              <option value="left">레이드 나감</option>
+            </select>
+          </div>
+          <div class="field-row" id="ed-exit-row"><label for="ed-exit">탈출구</label><input type="text" id="ed-exit" placeholder="예: Crossroads"></div>
+          <div class="death-fields" id="ed-death">
+            <input type="text" id="ed-killer" placeholder="사살한 상대 이름">
+            <select id="ed-killer-side"></select>
+            <input type="text" id="ed-death-weapon" placeholder="상대 무기">
+            <select id="ed-death-part"></select>
+            <input type="number" id="ed-death-dist" placeholder="거리 (m)" min="0" step="0.1">
+            <input type="text" id="ed-death-time" placeholder="사망 시각 (예: 00:05:01)" title="레이드 시작부터의 경과 시간 (예: 00:05:01 또는 5:01)">
+          </div>
+        </div>
+
+        <div class="ed-section">
+          <h4>킬 기록</h4>
+          <div id="ed-kills"></div>
+          <button class="btn" id="ed-add-kill">+ 현재 재생 시각에 킬 추가</button>
+          <div class="ed-hint">시각은 레이드 시작부터의 경과 시간입니다. 킬 목록의 TIME(예: 00:05:01)을 그대로 넣거나 mm:ss로 입력하세요.</div>
+        </div>
+
+        <div class="ed-section">
+          <h4>기타</h4>
+          <div class="field-row"><label for="ed-map">맵</label><select id="ed-map"></select></div>
+          <div class="field-row"><label for="ed-title">제목</label><input type="text" id="ed-title" placeholder="예: 첫 기숙사 런"></div>
+          <textarea id="ed-notes" placeholder="메모"></textarea>
+        </div>
+      </div>
+      <div class="ed-foot">
+        <button class="btn" id="ed-cancel">취소</button>
+        <button class="btn primary" id="ed-save">저장</button>
+      </div>
+    </section>
+
+    <footer id="timeline" class="hidden">
+      <button id="play" class="icon-btn" title="재생 / 정지 (Space)" aria-label="재생">&#9654;</button>
+      <select id="speed" title="재생 속도" aria-label="재생 속도">
+        <option value="1">1×</option>
+        <option value="4">4×</option>
+        <option value="10" selected>10×</option>
+        <option value="30">30×</option>
+        <option value="60">60×</option>
+      </select>
+      <div id="track-bar">
+        <div id="ticks"></div>
+        <input type="range" id="scrub" min="0" max="1000" value="1000" step="0.1" aria-label="재생 위치">
+      </div>
+      <span id="clock" class="num"></span>
+      <button class="btn" id="follow" title="재생 위치를 따라 지도를 움직입니다">따라가기</button>
+      <button class="btn" id="edit-toggle" title="킬·결과 입력">편집</button>
+    </footer>
+  </main>
+</div>
+
+<div id="lightbox" class="hidden" role="dialog" aria-label="스크린샷 크게 보기"><img alt=""><div class="caption"></div></div>
+
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<script>
+  // CDN fallback: unpkg down -> jsDelivr
+  if (!window.L) {
+    document.write('<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.4/dist/leaflet.css">');
+    document.write('<script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.4/dist/leaflet.js"><\/script>');
+  }
+</script>
+<script src="/viewer/app.js"></script>
+</body>
+</html>

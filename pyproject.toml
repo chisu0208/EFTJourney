@@ -1,0 +1,25 @@
+[project]
+name = "eftjourney"
+version = "0.1.0"
+description = "Escape from Tarkov raid journey replay: route, kills and death drawn on the map from in-game screenshots and game logs"
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+dependencies = []
+
+[project.optional-dependencies]
+# Smaller hover thumbnails for 2560x1440 screenshots (falls back to the original file without it)
+thumbs = ["Pillow>=10"]
+
+[project.scripts]
+eftjourney = "eftjourney.cli:main"
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+packages = ["eftjourney"]
+
+[tool.setuptools.package-data]
+eftjourney = ["viewer/*", "data/*.json"]

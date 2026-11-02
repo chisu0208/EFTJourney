@@ -1,0 +1,50 @@
+2026-10-27 22:33:24.864|1.2.5.0.48146|Info|push-notifications|LobbyNotificationsChannel: establishing lobby websocket
+2026-10-27 22:35:39.715|1.2.5.0.48146|Info|push-notifications|Got notification | ChatMessageReceived
+{
+  "type": "new_message",
+  "eventId": "bbbbbbbbbbbbbbbbbbbb0002",
+  "dialogId": "bbbbbbbbbbbbbbbbbbbb0003",
+  "message": {
+    "_id": "cccccccccccccccccccccc0001",
+    "uid": "bbbbbbbbbbbbbbbbbbbb0003",
+    "type": 10,
+    "dt": 1793108139,
+    "text": "quest started",
+    "templateId": "bbbbbbbbbbbbbbbbbbbb0004 0",
+    "items": {
+      "stash": "bbbbbbbbbbbbbbbbbbbb0005",
+      "data": [
+        {
+          "_id": "bbbbbbbbbbbbbbbbbbbb0006",
+          "_tpl": "bbbbbbbbbbbbbbbbbbbb0007",
+          "upd": {
+            "StackObjectsCount": 317250
+          },
+          "parentId": "bbbbbbbbbbbbbbbbbbbb0005",
+          "slotId": "main"
+        }
+      ]
+    },
+    "maxStorageTime": 0,
+    "profileChangeEvents": [],
+    "hasRewards": true
+  }
+}
+2026-10-27 22:35:39.715|1.2.5.0.48146|Info|push-notifications|NotificationMessageProcessor.ProcessMessage | Received notification: Type: ChatMessageReceived, Time: 0, Duration: Default, ShowNotification: False
+2026-10-27 22:45:50.564|1.2.5.0.48146|Info|push-notifications|Got notification | UserMatchOver
+{
+  "type": "userMatchOver",
+  "eventId": "bbbbbbbbbbbbbbbbbbbb0001",
+  "profileid": "aaaaaaaaaaaaaaaaaaaa0001",
+  "profileToken": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+  "status": "Free",
+  "ip": "",
+  "port": 0,
+  "sid": "",
+  "version": "live",
+  "location": "bigmap",
+  "raidMode": "Online",
+  "mode": "deathmatch",
+  "shortId": null,
+  "additional_info": null
+}

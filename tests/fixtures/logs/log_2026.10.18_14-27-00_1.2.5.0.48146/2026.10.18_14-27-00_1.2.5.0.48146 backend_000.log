@@ -1,0 +1,58 @@
+2026-10-18 14:27:14.566|1.2.5.0.48146|Info|backend|---> Request HTTPS, id [1]: URL: https://gw-pvp.escapefromtarkov.com/client/game/mode. 
+2026-10-18 14:27:14.966|1.2.5.0.48146|Info|backend|<--- Response HTTPS, id [1]: URL: https://gw-pvp.escapefromtarkov.com/client/game/mode, DownloadSeconds: 0.367, ParseSeconds: 0.033, SumSeconds: 0.400, responseText: 
+2026-10-18 14:27:14.967|1.2.5.0.48146|Info|backend|---> Request HTTPS, id [2]: URL: https://gw-pve.escapefromtarkov.com/client/game/start. 
+2026-10-18 14:27:15.334|1.2.5.0.48146|Info|backend|<--- Response HTTPS, id [2]: URL: https://gw-pve.escapefromtarkov.com/client/game/start, DownloadSeconds: 0.349, ParseSeconds: 0.018, SumSeconds: 0.367, responseText: 
+2026-10-18 14:28:21.201|1.2.5.0.48146|Info|backend|---> Request HTTPS, id [35]: URL: https://gw-pve.escapefromtarkov.com/client/game/profile/select. 
+2026-10-18 14:28:21.578|1.2.5.0.48146|Info|backend|<--- Response HTTPS, id [35]: URL: https://gw-pve.escapefromtarkov.com/client/game/profile/select, DownloadSeconds: 0.360, ParseSeconds: 0.017, SumSeconds: 0.377, responseText: 
+2026-10-18 14:28:32.046|1.2.5.0.48146|Info|backend|---> Request HTTPS, id [56]: URL: https://gw-pve.escapefromtarkov.com/client/match/group/current. 
+2026-10-18 14:28:33.008|1.2.5.0.48146|Info|backend|---> Request HTTPS, id [57]: URL: https://gw-pve.escapefromtarkov.com/client/match/group/current. 
+2026-10-18 14:28:33.041|1.2.5.0.48146|Info|backend|<--- Response HTTPS, id [56]: URL: https://gw-pve.escapefromtarkov.com/client/match/group/current, DownloadSeconds: 0.940, ParseSeconds: 0.054, SumSeconds: 0.994, responseText: 
+2026-10-18 14:28:33.377|1.2.5.0.48146|Info|backend|<--- Response HTTPS, id [57]: URL: https://gw-pve.escapefromtarkov.com/client/match/group/current, DownloadSeconds: 0.358, ParseSeconds: 0.011, SumSeconds: 0.369, responseText: 
+2026-10-18 14:30:21.265|1.2.5.0.48146|Info|backend|---> Request HTTPS, id [81]: URL: https://gw-pve.escapefromtarkov.com/client/insurance/items/list/cost. 
+2026-10-18 14:30:21.704|1.2.5.0.48146|Info|backend|<--- Response HTTPS, id [81]: URL: https://gw-pve.escapefromtarkov.com/client/insurance/items/list/cost, DownloadSeconds: 0.430, ParseSeconds: 0.009, SumSeconds: 0.439, responseText: 
+2026-10-18 14:30:23.110|1.2.5.0.48146|Info|backend|---> Request HTTPS, id [83]: URL: https://gw-pve.escapefromtarkov.com/client/match/group/invite/cancel-all. 
+2026-10-18 14:30:23.118|1.2.5.0.48146|Info|backend|---> Request HTTPS, id [82]: URL: https://gw-pve.escapefromtarkov.com/client/raid/configuration. 
+2026-10-18 14:30:23.430|1.2.5.0.48146|Info|backend|---> Request HTTPS, id [84]: URL: https://gw-pve.escapefromtarkov.com/client/raid/configuration. 
+2026-10-18 14:30:23.448|1.2.5.0.48146|Info|backend|<--- Response HTTPS, id [83]: URL: https://gw-pve.escapefromtarkov.com/client/match/group/invite/cancel-all, DownloadSeconds: 0.328, ParseSeconds: 0.010, SumSeconds: 0.338, responseText: 
+2026-10-18 14:30:23.476|1.2.5.0.48146|Info|backend|<--- Response HTTPS, id [82]: URL: https://gw-pve.escapefromtarkov.com/client/raid/configuration, DownloadSeconds: 0.348, ParseSeconds: 0.010, SumSeconds: 0.358, responseText: 
+2026-10-18 14:30:23.483|1.2.5.0.48146|Info|backend|---> Request HTTPS, id [85]: URL: https://gw-pve.escapefromtarkov.com/client/match/group/invite/cancel-all. 
+2026-10-18 14:30:23.798|1.2.5.0.48146|Info|backend|<--- Response HTTPS, id [84]: URL: https://gw-pve.escapefromtarkov.com/client/raid/configuration, DownloadSeconds: 0.355, ParseSeconds: 0.012, SumSeconds: 0.367, responseText: 
+2026-10-18 14:30:23.833|1.2.5.0.48146|Info|backend|---> Request HTTPS, id [86]: URL: https://gw-pve.escapefromtarkov.com/client/match/group/exit_from_menu. 
+2026-10-18 14:30:23.863|1.2.5.0.48146|Info|backend|<--- Response HTTPS, id [85]: URL: https://gw-pve.escapefromtarkov.com/client/match/group/invite/cancel-all, DownloadSeconds: 0.359, ParseSeconds: 0.022, SumSeconds: 0.381, responseText: 
+2026-10-18 14:30:24.947|1.2.5.0.48146|Info|backend|<--- Response HTTPS, id [86]: URL: https://gw-pve.escapefromtarkov.com/client/match/group/exit_from_menu, DownloadSeconds: 1.103, ParseSeconds: 0.011, SumSeconds: 1.114, responseText: 
+2026-10-18 14:30:38.775|1.2.5.0.48146|Info|backend|---> Request HTTPS, id [88]: URL: https://gw-pve.escapefromtarkov.com/client/raid/configuration. 
+2026-10-18 14:30:39.845|1.2.5.0.48146|Info|backend|<--- Response HTTPS, id [88]: URL: https://gw-pve.escapefromtarkov.com/client/raid/configuration, DownloadSeconds: 1.058, ParseSeconds: 0.013, SumSeconds: 1.071, responseText: 
+2026-10-18 14:30:39.859|1.2.5.0.48146|Info|backend|---> Request HTTPS, id [89]: URL: https://gw-pve.escapefromtarkov.com/client/match/local/start. 
+2026-10-18 14:30:40.880|1.2.5.0.48146|Info|backend|<--- Response HTTPS, id [89]: URL: https://gw-pve.escapefromtarkov.com/client/match/local/start, DownloadSeconds: 0.912, ParseSeconds: 0.109, SumSeconds: 1.021, responseText: 
+2026-10-18 14:30:41.081|1.2.5.0.48146|Info|backend|---> Request HTTPS, id [90]: URL: https://gw-pve.escapefromtarkov.com/client/game/keepalive. 
+2026-10-18 14:30:41.465|1.2.5.0.48146|Info|backend|<--- Response HTTPS, id [90]: URL: https://gw-pve.escapefromtarkov.com/client/game/keepalive, DownloadSeconds: 0.358, ParseSeconds: 0.027, SumSeconds: 0.385, responseText: 
+2026-10-18 14:30:41.603|1.2.5.0.48146|Info|backend|---> Request HTTPS, id [91]: URL: https://gw-pve.escapefromtarkov.com/client/game/bot/generate. 
+2026-10-18 14:30:42.294|1.2.5.0.48146|Info|backend|<--- Response HTTPS, id [91]: URL: https://gw-pve.escapefromtarkov.com/client/game/bot/generate, DownloadSeconds: 0.650, ParseSeconds: 0.041, SumSeconds: 0.691, responseText: 
+2026-10-18 14:30:46.803|1.2.5.0.48146|Info|backend|---> Request HTTPS, id [92]: URL: https://gw-pve.escapefromtarkov.com/client/game/bot/generate. 
+2026-10-18 14:30:47.185|1.2.5.0.48146|Info|backend|<--- Response HTTPS, id [92]: URL: https://gw-pve.escapefromtarkov.com/client/game/bot/generate, DownloadSeconds: 0.357, ParseSeconds: 0.025, SumSeconds: 0.382, responseText: 
+2026-10-18 14:32:38.701|1.2.5.0.48146|Info|backend|---> Request HTTPS, id [94]: URL: https://gw-pve.escapefromtarkov.com/client/game/bot/generate. 
+2026-10-18 14:32:39.550|1.2.5.0.48146|Info|backend|<--- Response HTTPS, id [94]: URL: https://gw-pve.escapefromtarkov.com/client/game/bot/generate, DownloadSeconds: 0.764, ParseSeconds: 0.086, SumSeconds: 0.850, responseText: 
+2026-10-18 14:33:01.089|1.2.5.0.48146|Info|backend|---> Request HTTPS, id [95]: URL: https://gw-pve.escapefromtarkov.com/client/game/keepalive. 
+2026-10-18 14:33:01.440|1.2.5.0.48146|Info|backend|<--- Response HTTPS, id [95]: URL: https://gw-pve.escapefromtarkov.com/client/game/keepalive, DownloadSeconds: 0.343, ParseSeconds: 0.008, SumSeconds: 0.351, responseText: 
+2026-10-18 14:35:21.090|1.2.5.0.48146|Info|backend|---> Request HTTPS, id [96]: URL: https://gw-pve.escapefromtarkov.com/client/game/keepalive. 
+2026-10-18 14:35:21.479|1.2.5.0.48146|Info|backend|<--- Response HTTPS, id [96]: URL: https://gw-pve.escapefromtarkov.com/client/game/keepalive, DownloadSeconds: 0.380, ParseSeconds: 0.009, SumSeconds: 0.389, responseText: 
+2026-10-18 14:37:41.100|1.2.5.0.48146|Info|backend|---> Request HTTPS, id [97]: URL: https://gw-pve.escapefromtarkov.com/client/game/keepalive. 
+2026-10-18 14:37:41.477|1.2.5.0.48146|Info|backend|<--- Response HTTPS, id [97]: URL: https://gw-pve.escapefromtarkov.com/client/game/keepalive, DownloadSeconds: 0.367, ParseSeconds: 0.010, SumSeconds: 0.377, responseText: 
+2026-10-18 14:40:01.101|1.2.5.0.48146|Info|backend|---> Request HTTPS, id [98]: URL: https://gw-pve.escapefromtarkov.com/client/game/keepalive. 
+2026-10-18 14:40:01.493|1.2.5.0.48146|Info|backend|<--- Response HTTPS, id [98]: URL: https://gw-pve.escapefromtarkov.com/client/game/keepalive, DownloadSeconds: 0.371, ParseSeconds: 0.022, SumSeconds: 0.393, responseText: 
+2026-10-18 14:40:56.314|1.2.5.0.48146|Info|backend|---> Request HTTPS, id [99]: URL: https://gw-pve.escapefromtarkov.com/client/match/local/end. 
+2026-10-18 14:40:57.885|1.2.5.0.48146|Info|backend|<--- Response HTTPS, id [99]: URL: https://gw-pve.escapefromtarkov.com/client/match/local/end, DownloadSeconds: 1.559, ParseSeconds: 0.012, SumSeconds: 1.571, responseText: 
+2026-10-18 14:41:08.350|1.2.5.0.48146|Info|backend|---> Request HTTPS, id [128]: URL: https://gw-pve.escapefromtarkov.com/client/game/profile/select. 
+2026-10-18 14:41:08.696|1.2.5.0.48146|Info|backend|<--- Response HTTPS, id [128]: URL: https://gw-pve.escapefromtarkov.com/client/game/profile/select, DownloadSeconds: 0.318, ParseSeconds: 0.028, SumSeconds: 0.346, responseText: 
+2026-10-18 14:41:11.857|1.2.5.0.48146|Info|backend|---> Request HTTPS, id [136]: URL: https://gw-pve.escapefromtarkov.com/client/match/group/current. 
+2026-10-18 14:41:12.299|1.2.5.0.48146|Info|backend|<--- Response HTTPS, id [136]: URL: https://gw-pve.escapefromtarkov.com/client/match/group/current, DownloadSeconds: 0.430, ParseSeconds: 0.011, SumSeconds: 0.441, responseText: 
+2026-10-18 14:41:30.594|1.2.5.0.48146|Info|backend|---> Request HTTPS, id [138]: URL: https://gw-pve.escapefromtarkov.com/client/match/local/start. 
+2026-10-18 14:41:32.044|1.2.5.0.48146|Info|backend|<--- Response HTTPS, id [138]: URL: https://gw-pve.escapefromtarkov.com/client/match/local/start, DownloadSeconds: 1.292, ParseSeconds: 0.158, SumSeconds: 1.450, responseText: 
+2026-10-18 14:41:35.129|1.2.5.0.48146|Info|backend|---> Request HTTPS, id [139]: URL: https://gw-pve.escapefromtarkov.com/client/game/bot/generate. 
+2026-10-18 14:41:35.811|1.2.5.0.48146|Info|backend|<--- Response HTTPS, id [139]: URL: https://gw-pve.escapefromtarkov.com/client/game/bot/generate, DownloadSeconds: 0.524, ParseSeconds: 0.159, SumSeconds: 0.683, responseText: 
+2026-10-18 14:41:36.628|1.2.5.0.48146|Info|backend|---> Request HTTPS, id [140]: URL: https://gw-pve.escapefromtarkov.com/client/game/bot/generate. 
+2026-10-18 14:41:37.664|1.2.5.0.48146|Info|backend|<--- Response HTTPS, id [140]: URL: https://gw-pve.escapefromtarkov.com/client/game/bot/generate, DownloadSeconds: 0.952, ParseSeconds: 0.086, SumSeconds: 1.038, responseText: 
+2026-10-18 14:43:26.310|1.2.5.0.48146|Info|backend|---> Request HTTPS, id [142]: URL: https://gw-pve.escapefromtarkov.com/client/game/keepalive. 
+2026-10-18 14:43:26.683|1.2.5.0.48146|Info|backend|<--- Response HTTPS, id [142]: URL: https://gw-pve.escapefromtarkov.com/client/game/keepalive, DownloadSeconds: 0.357, ParseSeconds: 0.016, SumSeconds: 0.373, responseText: 
+2026-10-18 14:43:30.821|1.2.5.0.48146|Info|backend|---> Request HTTPS, id [143]: URL: https://gw-pve.escapefromtarkov.com/client/game/bot/generate. 
+2026-10-18 14:43:31.460|1.2.5.0.48146|Info|backend|<--- Response HTTPS, id [143]: URL: https://gw-pve.escapefromtarkov.com/client/game/bot/generate, DownloadSeconds: 0.597, ParseSeconds: 0.043, SumSeconds: 0.640, responseText: 

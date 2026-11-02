@@ -1,0 +1,265 @@
+2026-10-22 21:20:05.930|1.2.5.0.48146|Info|push-notifications|LobbyNotificationsChannel: establishing lobby websocket
+2026-10-22 21:32:59.673|1.2.5.0.48146|Info|push-notifications|Got notification | UserRoomStarted
+{
+  "type": "userRoomStarted",
+  "eventId": "bbbbbbbbbbbbbbbbbbbb0004",
+  "blockExitButton": true,
+  "blockExitButtonDuration": 0,
+  "showConfirmationPopup": false
+}
+2026-10-22 21:32:59.673|1.2.5.0.48146|Info|push-notifications|NotificationMessageProcessor.ProcessMessage | Received notification: Type: UserRoomStarted, Time: 0, Duration: Default, ShowNotification: False
+2026-10-22 21:34:05.343|1.2.5.0.48146|Info|push-notifications|Got notification | UserConfirmed
+{
+  "type": "userConfirmed",
+  "eventId": "bbbbbbbbbbbbbbbbbbbb0005",
+  "profileid": "aaaaaaaaaaaaaaaaaaaa0001",
+  "profileToken": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+  "status": "Busy",
+  "ip": "203.0.113.10",
+  "port": 17007,
+  "sid": "xx-xx00xxx003_bbbbbbbbbbbbbbbbbbbb0001_22.10.26_15-33-00",
+  "version": "live",
+  "location": "Shoreline",
+  "raidMode": "Online",
+  "mode": "deathmatch",
+  "shortId": "XXXX02",
+  "additional_info": []
+}
+2026-10-22 21:51:01.943|1.2.5.0.48146|Info|push-notifications|Got notification | UserMatchOver
+{
+  "type": "userMatchOver",
+  "eventId": "bbbbbbbbbbbbbbbbbbbb0006",
+  "profileid": "aaaaaaaaaaaaaaaaaaaa0001",
+  "profileToken": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+  "status": "Free",
+  "ip": "203.0.113.10",
+  "port": 17007,
+  "sid": "xx-xx00xxx003_bbbbbbbbbbbbbbbbbbbb0001_22.10.26_15-33-00",
+  "version": "live",
+  "location": "Shoreline",
+  "raidMode": "Online",
+  "mode": "deathmatch",
+  "shortId": "XXXX02",
+  "additional_info": []
+}
+2026-10-22 21:51:01.944|1.2.5.0.48146|Info|push-notifications|Got notification | ChatMessageReceived
+{
+  "type": "new_message",
+  "eventId": "bbbbbbbbbbbbbbbbbbbb000e",
+  "dialogId": "bbbbbbbbbbbbbbbbbbbb000f",
+  "message": {
+    "_id": "bbbbbbbbbbbbbbbbbbbb0010",
+    "uid": "bbbbbbbbbbbbbbbbbbbb000f",
+    "type": 2,
+    "dt": 1792673461,
+    "text": "",
+    "templateId": "bbbbbbbbbbbbbbbbbbbb0011 2",
+    "systemData": {
+      "date": "22.10.2026",
+      "time": "15:51",
+      "location": "Shoreline"
+    },
+    "hasRewards": false,
+    "maxStorageTime": 1209600
+  }
+}
+2026-10-22 21:51:01.944|1.2.5.0.48146|Info|push-notifications|NotificationMessageProcessor.ProcessMessage | Received notification: Type: ChatMessageReceived, Time: 0, Duration: Default, ShowNotification: False
+2026-10-22 21:51:47.535|1.2.5.0.48146|Info|push-notifications|Got notification | ChatMessageReceived
+{
+  "type": "new_message",
+  "eventId": "bbbbbbbbbbbbbbbbbbbb0012",
+  "dialogId": "bbbbbbbbbbbbbbbbbbbb0013",
+  "message": {
+    "_id": "ccccccccccccccccccccc0001",
+    "uid": "bbbbbbbbbbbbbbbbbbbb0013",
+    "type": 12,
+    "dt": 1792673507,
+    "text": "quest started",
+    "templateId": "bbbbbbbbbbbbbbbbbbbb0014 successMessageText",
+    "items": {
+      "stash": "bbbbbbbbbbbbbbbbbbbb0015",
+      "data": [
+        {
+          "_id": "bbbbbbbbbbbbbbbbbbbb0016",
+          "_tpl": "bbbbbbbbbbbbbbbbbbbb0017",
+          "upd": {
+            "StackObjectsCount": 84560
+          },
+          "parentId": "bbbbbbbbbbbbbbbbbbbb0015",
+          "slotId": "main"
+        }
+      ]
+    },
+    "maxStorageTime": 172800,
+    "profileChangeEvents": [],
+    "hasRewards": true
+  }
+}
+2026-10-22 21:51:47.535|1.2.5.0.48146|Info|push-notifications|NotificationMessageProcessor.ProcessMessage | Received notification: Type: ChatMessageReceived, Time: 0, Duration: Default, ShowNotification: False
+2026-10-22 21:51:53.952|1.2.5.0.48146|Info|push-notifications|Got notification | ChatMessageReceived
+{
+  "type": "new_message",
+  "eventId": "bbbbbbbbbbbbbbbbbbbb0018",
+  "dialogId": "bbbbbbbbbbbbbbbbbbbb0019",
+  "message": {
+    "_id": "cccccccccccccccccccccc0002",
+    "uid": "bbbbbbbbbbbbbbbbbbbb0019",
+    "type": 12,
+    "dt": 1792673514,
+    "text": "quest started",
+    "templateId": "bbbbbbbbbbbbbbbbbbbb001a successMessageText",
+    "items": {
+      "stash": "bbbbbbbbbbbbbbbbbbbb001b",
+      "data": [
+        {
+          "_id": "bbbbbbbbbbbbbbbbbbbb001c",
+          "_tpl": "bbbbbbbbbbbbbbbbbbbb001d",
+          "upd": {
+            "StackObjectsCount": 1163
+          },
+          "parentId": "bbbbbbbbbbbbbbbbbbbb001b",
+          "slotId": "main"
+        }
+      ]
+    },
+    "maxStorageTime": 172800,
+    "profileChangeEvents": [],
+    "hasRewards": true
+  }
+}
+2026-10-22 21:51:53.952|1.2.5.0.48146|Info|push-notifications|NotificationMessageProcessor.ProcessMessage | Received notification: Type: ChatMessageReceived, Time: 0, Duration: Default, ShowNotification: False
+2026-10-22 21:51:57.263|1.2.5.0.48146|Info|push-notifications|Got notification | ChatMessageReceived
+{
+  "type": "new_message",
+  "eventId": "bbbbbbbbbbbbbbbbbbbb001e",
+  "dialogId": "bbbbbbbbbbbbbbbbbbbb0019",
+  "message": {
+    "_id": "cccccccccccccccccccccc0003",
+    "uid": "bbbbbbbbbbbbbbbbbbbb0019",
+    "type": 12,
+    "dt": 1792673517,
+    "text": "quest started",
+    "templateId": "bbbbbbbbbbbbbbbbbbbb001f successMessageText",
+    "items": {
+      "stash": "bbbbbbbbbbbbbbbbbbbb0020",
+      "data": [
+        {
+          "_id": "bbbbbbbbbbbbbbbbbbbb0021",
+          "_tpl": "bbbbbbbbbbbbbbbbbbbb001d",
+          "upd": {
+            "StackObjectsCount": 1163
+          },
+          "parentId": "bbbbbbbbbbbbbbbbbbbb0020",
+          "slotId": "main"
+        }
+      ]
+    },
+    "maxStorageTime": 172800,
+    "profileChangeEvents": [],
+    "hasRewards": true
+  }
+}
+2026-10-22 21:51:57.263|1.2.5.0.48146|Info|push-notifications|NotificationMessageProcessor.ProcessMessage | Received notification: Type: ChatMessageReceived, Time: 0, Duration: Default, ShowNotification: False
+2026-10-22 21:52:00.676|1.2.5.0.48146|Info|push-notifications|Got notification | ChatMessageReceived
+{
+  "type": "new_message",
+  "eventId": "bbbbbbbbbbbbbbbbbbbb0022",
+  "dialogId": "bbbbbbbbbbbbbbbbbbbb0019",
+  "message": {
+    "_id": "bbbbbbbbbbbbbbbbbbbb0023",
+    "uid": "bbbbbbbbbbbbbbbbbbbb0019",
+    "type": 10,
+    "dt": 1792673521,
+    "text": "quest started",
+    "templateId": "bbbbbbbbbbbbbbbbbbbb0024 description",
+    "hasRewards": false,
+    "maxStorageTime": 1209600
+  }
+}
+2026-10-22 21:52:00.676|1.2.5.0.48146|Info|push-notifications|NotificationMessageProcessor.ProcessMessage | Received notification: Type: ChatMessageReceived, Time: 0, Duration: Default, ShowNotification: False
+2026-10-22 21:52:03.189|1.2.5.0.48146|Info|push-notifications|Got notification | ChatMessageReceived
+{
+  "type": "new_message",
+  "eventId": "bbbbbbbbbbbbbbbbbbbb0025",
+  "dialogId": "bbbbbbbbbbbbbbbbbbbb0019",
+  "message": {
+    "_id": "bbbbbbbbbbbbbbbbbbbb0026",
+    "uid": "bbbbbbbbbbbbbbbbbbbb0019",
+    "type": 10,
+    "dt": 1792673523,
+    "text": "quest started",
+    "templateId": "bbbbbbbbbbbbbbbbbbbb0027 description",
+    "hasRewards": false,
+    "maxStorageTime": 1209600
+  }
+}
+2026-10-22 21:52:03.189|1.2.5.0.48146|Info|push-notifications|NotificationMessageProcessor.ProcessMessage | Received notification: Type: ChatMessageReceived, Time: 0, Duration: Default, ShowNotification: False
+2026-10-22 22:01:42.539|1.2.5.0.48146|Info|push-notifications|Got notification | UserRoomStarted
+{
+  "type": "userRoomStarted",
+  "eventId": "bbbbbbbbbbbbbbbbbbbb0007",
+  "blockExitButton": true,
+  "blockExitButtonDuration": 0,
+  "showConfirmationPopup": false
+}
+2026-10-22 22:01:42.539|1.2.5.0.48146|Info|push-notifications|NotificationMessageProcessor.ProcessMessage | Received notification: Type: UserRoomStarted, Time: 0, Duration: Default, ShowNotification: False
+2026-10-22 22:03:25.492|1.2.5.0.48146|Info|push-notifications|Got notification | UserConfirmed
+{
+  "type": "userConfirmed",
+  "eventId": "bbbbbbbbbbbbbbbbbbbb0008",
+  "profileid": "aaaaaaaaaaaaaaaaaaaa0001",
+  "profileToken": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+  "status": "Busy",
+  "ip": "203.0.113.11",
+  "port": 17001,
+  "sid": "XX-XX00X002_bbbbbbbbbbbbbbbbbbbb0002_22.10.26_16-01-42",
+  "version": "live",
+  "location": "bigmap",
+  "raidMode": "Online",
+  "mode": "deathmatch",
+  "shortId": "XXXX03",
+  "additional_info": []
+}
+2026-10-22 22:18:14.374|1.2.5.0.48146|Info|push-notifications|Got notification | UserRoomStarted
+{
+  "type": "userRoomStarted",
+  "eventId": "bbbbbbbbbbbbbbbbbbbb000b",
+  "blockExitButton": true,
+  "blockExitButtonDuration": 0,
+  "showConfirmationPopup": false
+}
+2026-10-22 22:18:14.374|1.2.5.0.48146|Info|push-notifications|NotificationMessageProcessor.ProcessMessage | Received notification: Type: UserRoomStarted, Time: 0, Duration: Default, ShowNotification: False
+2026-10-22 22:19:21.800|1.2.5.0.48146|Info|push-notifications|Got notification | UserConfirmed
+{
+  "type": "userConfirmed",
+  "eventId": "bbbbbbbbbbbbbbbbbbbb000c",
+  "profileid": "aaaaaaaaaaaaaaaaaaaa0001",
+  "profileToken": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+  "status": "Busy",
+  "ip": "203.0.113.10",
+  "port": 17012,
+  "sid": "xx-xx00xxx003_bbbbbbbbbbbbbbbbbbbb0003_22.10.26_16-18-14",
+  "version": "live",
+  "location": "Shoreline",
+  "raidMode": "Online",
+  "mode": "deathmatch",
+  "shortId": "XXXX04",
+  "additional_info": []
+}
+2026-10-22 22:59:43.299|1.2.5.0.48146|Info|push-notifications|Got notification | UserMatchOver
+{
+  "type": "userMatchOver",
+  "eventId": "bbbbbbbbbbbbbbbbbbbb000d",
+  "profileid": "aaaaaaaaaaaaaaaaaaaa0001",
+  "profileToken": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+  "status": "Free",
+  "ip": "203.0.113.10",
+  "port": 17012,
+  "sid": "xx-xx00xxx003_bbbbbbbbbbbbbbbbbbbb0003_22.10.26_16-18-14",
+  "version": "live",
+  "location": "Shoreline",
+  "raidMode": "Online",
+  "mode": "deathmatch",
+  "shortId": "XXXX04",
+  "additional_info": []
+}

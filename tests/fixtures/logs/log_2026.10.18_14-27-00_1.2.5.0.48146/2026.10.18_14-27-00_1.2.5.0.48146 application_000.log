@@ -1,0 +1,99 @@
+2026-10-18 14:27:01.808|1.2.5.0.48146|Info|application|Application awaken, updateQueue:'Update'
+2026-10-18 14:27:01.808|1.2.5.0.48146|Info|application|Assert.raiseExceptions:'True'
+2026-10-18 14:27:01.811|1.2.5.0.48146|Info|application|driveType:SSD swapDriveType:SSD
+2026-10-18 14:27:08.495|1.2.5.0.48146|Info|application|NVIDIA Reflex is available on this machine, Status: NvReflex_OK.
+2026-10-18 14:27:14.966|1.2.5.0.48146|Info|application|Session mode: Pve
+2026-10-18 14:28:21.198|1.2.5.0.48146|Info|application|PrepareSelectedProfileLocally ProfileId:aaaaaaaaaaaaaaaaaaaa0001 AccountId:9999001
+2026-10-18 14:28:21.198|1.2.5.0.48146|Info|application|CompleteSelectedProfile ProfileId:aaaaaaaaaaaaaaaaaaaa0001 AccountId:9999001
+2026-10-18 14:28:30.402|1.2.5.0.48146|Debug|application|Start loading dll 'E:/SteamLibrary/steamapps/common/Escape from Tarkov/build/EscapeFromTarkov_Data/../BattlEye/BEClient_x64.dll'
+2026-10-18 14:28:31.239|1.2.5.0.48146|Debug|application|SUCCESS: loading dll 'E:/SteamLibrary/steamapps/common/Escape from Tarkov/build/EscapeFromTarkov_Data/../BattlEye/BEClient_x64.dll'
+2026-10-18 14:28:31.239|1.2.5.0.48146|Debug|application|Getting Proc Address for 'Init', dllPtr:'140716627525632'
+2026-10-18 14:28:31.240|1.2.5.0.48146|Debug|application|SUCCESS: getting proc address 'Init', dllPtr:'140716627525632'
+2026-10-18 14:28:31.240|1.2.5.0.48146|Debug|application|Getting Proc Address for 'GetVer', dllPtr:'140716627525632'
+2026-10-18 14:28:31.240|1.2.5.0.48146|Debug|application|SUCCESS: getting proc address 'GetVer', dllPtr:'140716627525632'
+2026-10-18 14:28:31.240|1.2.5.0.48146|Debug|application|Init: pstrGameVersion: Escape from Tarkov 1.2.5.0.48146, uiAddress: 0, usPort: 0
+2026-10-18 14:28:31.246|1.2.5.0.48146|Info|application|Initialized (v1.249)
+2026-10-18 14:28:31.246|1.2.5.0.48146|Info|application|BEClient inited successfully
+2026-10-18 14:28:31.246|1.2.5.0.48146|Debug|application|totalMemoryBeforeCleanUp 617.3984
+2026-10-18 14:28:31.246|1.2.5.0.48146|Debug|application|GC::Collect
+2026-10-18 14:28:31.449|1.2.5.0.48146|Debug|application|GC::Collect Aggressive
+2026-10-18 14:28:31.646|1.2.5.0.48146|Debug|application|collectedMemoryGB 41.22656
+2026-10-18 14:28:31.656|1.2.5.0.48146|Info|application|Config entry: GameID eft
+2026-10-18 14:28:31.656|1.2.5.0.48146|Info|application|Config entry: MasterPort 17000
+2026-10-18 14:28:31.769|1.2.5.0.48146|Info|application|Disposing BEClient
+2026-10-18 14:28:31.769|1.2.5.0.48146|Info|application|BEClient exit
+2026-10-18 14:28:31.870|1.2.5.0.48146|Info|application|BEClient exit successfully
+2026-10-18 14:28:31.870|1.2.5.0.48146|Debug|application|Releasing dll '140716627525632'
+2026-10-18 14:28:32.016|1.2.5.0.48146|Debug|application|SUCCESS: Dll released with code '1'
+2026-10-18 14:30:23.832|1.2.5.0.48146|Info|application|ClientMetricsEvents():180.25
+2026-10-18 14:30:23.832|1.2.5.0.48146|Info|application|MatchingCompleted:0 real:0 diff:0
+2026-10-18 14:30:24.595|1.2.5.0.48146|Info|application|scene preset path:maps/factory_day_preset.bundle rcid:factory_day.scenespreset.asset
+2026-10-18 14:30:24.595|1.2.5.0.48146|Debug|application|TRACE-NetworkGameMatching G
+2026-10-18 14:30:26.149|1.2.5.0.48146|Debug|application|TRACE-NetworkGameMatching H
+2026-10-18 14:30:26.151|1.2.5.0.48146|Debug|application|TRACE-NetworkGameMatching I
+2026-10-18 14:30:37.840|1.2.5.0.48146|Info|application|LocationLoaded:10.01 real:14 diff:3.98
+2026-10-18 14:30:38.765|1.2.5.0.48146|Info|application|GamePrepared:10.98 real:14.93 diff:3.95
+2026-10-18 14:30:40.898|1.2.5.0.48146|Info|application|GameCreated:13.09(2.11) real:17.06(2.12) diff:3.96
+2026-10-18 14:30:41.056|1.2.5.0.48146|Info|application|[Transit] Flag:Common, RaidId:6ad4597fe3e37918430bbe33, Count:0, Locations:factory4_day -> 
+2026-10-18 14:30:45.038|1.2.5.0.48146|Info|application|PlayerSpawnEvent:14.39(14.39) real:21.2(21.2) diff:6.81
+2026-10-18 14:30:52.189|1.2.5.0.48146|Info|application|GamePooled:20.13(7.03) real:28.35(11.29) diff:8.22
+2026-10-18 14:30:52.232|1.2.5.0.48146|Debug|application|Heap pre-allocation - disabled
+2026-10-18 14:30:52.232|1.2.5.0.48146|Debug|application|totalMemoryBeforeCleanUp 1177.949
+2026-10-18 14:30:52.232|1.2.5.0.48146|Debug|application|GC::Collect
+2026-10-18 14:30:52.580|1.2.5.0.48146|Debug|application|GC::Collect Aggressive
+2026-10-18 14:30:52.923|1.2.5.0.48146|Debug|application|collectedMemoryGB 73.87891
+2026-10-18 14:30:53.365|1.2.5.0.48146|Debug|application|GC mode switched to Disabled
+2026-10-18 14:31:07.580|1.2.5.0.48146|Info|application|GameRunned:32.25(12.12) real:43.74(15.39) diff:11.49
+2026-10-18 14:31:07.580|1.2.5.0.48146|Info|application|GameSpawn:32.25(0) real:43.74(0) diff:11.49
+2026-10-18 14:31:07.580|1.2.5.0.48146|Info|application|GameSpawned:32.25(17.86) real:43.74(22.54) diff:11.49
+2026-10-18 14:31:07.580|1.2.5.0.48146|Info|application|GameStarting:32.25(0) real:43.74(0) diff:11.49
+2026-10-18 14:31:07.580|1.2.5.0.48146|Info|application|GameStarted:32.25(0) real:43.74(0) diff:11.49
+2026-10-18 14:41:00.514|1.2.5.0.48146|Debug|application|totalMemoryBeforeCleanUp 3311.492
+2026-10-18 14:41:00.514|1.2.5.0.48146|Debug|application|GC mode switched to Enabled
+2026-10-18 14:41:00.514|1.2.5.0.48146|Debug|application|GC::Collect
+2026-10-18 14:41:01.290|1.2.5.0.48146|Debug|application|GC::Collect Aggressive
+2026-10-18 14:41:01.779|1.2.5.0.48146|Debug|application|collectedMemoryGB 2097.18
+2026-10-18 14:41:01.779|1.2.5.0.48146|Debug|application|GC mode switched to Disabled
+2026-10-18 14:41:08.349|1.2.5.0.48146|Info|application|PrepareSelectedProfileLocally ProfileId:aaaaaaaaaaaaaaaaaaaa0001 AccountId:9999001
+2026-10-18 14:41:08.350|1.2.5.0.48146|Info|application|CompleteSelectedProfile ProfileId:aaaaaaaaaaaaaaaaaaaa0001 AccountId:9999001
+2026-10-18 14:41:11.225|1.2.5.0.48146|Info|application|PVE transit hop local:True location:laboratory side:Pmc onlineToggle:False cachedMode:Local
+2026-10-18 14:41:11.226|1.2.5.0.48146|Info|application|ClientMetricsEvents():805.7501
+2026-10-18 14:41:11.226|1.2.5.0.48146|Info|application|MatchingCompleted:0 real:0 diff:0
+2026-10-18 14:41:11.226|1.2.5.0.48146|Debug|application|Start loading dll 'E:/SteamLibrary/steamapps/common/Escape from Tarkov/build/EscapeFromTarkov_Data/../BattlEye/BEClient_x64.dll'
+2026-10-18 14:41:11.853|1.2.5.0.48146|Debug|application|SUCCESS: loading dll 'E:/SteamLibrary/steamapps/common/Escape from Tarkov/build/EscapeFromTarkov_Data/../BattlEye/BEClient_x64.dll'
+2026-10-18 14:41:11.853|1.2.5.0.48146|Debug|application|Getting Proc Address for 'Init', dllPtr:'140716627525632'
+2026-10-18 14:41:11.853|1.2.5.0.48146|Debug|application|SUCCESS: getting proc address 'Init', dllPtr:'140716627525632'
+2026-10-18 14:41:11.853|1.2.5.0.48146|Debug|application|Getting Proc Address for 'GetVer', dllPtr:'140716627525632'
+2026-10-18 14:41:11.853|1.2.5.0.48146|Debug|application|SUCCESS: getting proc address 'GetVer', dllPtr:'140716627525632'
+2026-10-18 14:41:11.853|1.2.5.0.48146|Debug|application|Init: pstrGameVersion: Escape from Tarkov 1.2.5.0.48146, uiAddress: 0, usPort: 0
+2026-10-18 14:41:11.857|1.2.5.0.48146|Info|application|Initialized (v1.249)
+2026-10-18 14:41:11.857|1.2.5.0.48146|Info|application|BEClient inited successfully
+2026-10-18 14:41:11.865|1.2.5.0.48146|Info|application|scene preset path:maps/laboratory_preset.bundle rcid:laboratory.ScenesPreset.asset
+2026-10-18 14:41:11.865|1.2.5.0.48146|Debug|application|TRACE-NetworkGameMatching G
+2026-10-18 14:41:11.909|1.2.5.0.48146|Info|application|Config entry: GameID eft
+2026-10-18 14:41:11.909|1.2.5.0.48146|Info|application|Config entry: MasterPort 17000
+2026-10-18 14:41:12.054|1.2.5.0.48146|Info|application|Disposing BEClient
+2026-10-18 14:41:12.054|1.2.5.0.48146|Info|application|BEClient exit
+2026-10-18 14:41:12.156|1.2.5.0.48146|Info|application|BEClient exit successfully
+2026-10-18 14:41:12.156|1.2.5.0.48146|Debug|application|Releasing dll '140716627525632'
+2026-10-18 14:41:12.287|1.2.5.0.48146|Debug|application|SUCCESS: Dll released with code '1'
+2026-10-18 14:41:17.925|1.2.5.0.48146|Debug|application|TRACE-NetworkGameMatching H
+2026-10-18 14:41:17.925|1.2.5.0.48146|Debug|application|TRACE-NetworkGameMatching I
+2026-10-18 14:41:28.519|1.2.5.0.48146|Info|application|LocationLoaded:13.48 real:17.29 diff:3.81
+2026-10-18 14:41:30.585|1.2.5.0.48146|Info|application|GamePrepared:15.56 real:19.35 diff:3.79
+2026-10-18 14:41:32.047|1.2.5.0.48146|Info|application|GameCreated:17.03(1.47) real:20.82(1.46) diff:3.78
+2026-10-18 14:41:34.595|1.2.5.0.48146|Info|application|[Transit] Flag:Common, RaidId:6ad4597fe3e37918430bbe33, Count:1, Locations:factory4_day -> laboratory -> 
+2026-10-18 14:41:38.858|1.2.5.0.48146|Info|application|PlayerSpawnEvent:19.96(19.95) real:27.63(27.63) diff:7.67
+2026-10-18 14:42:06.968|1.2.5.0.48146|Info|application|GamePooled:47.93(30.9) real:55.74(34.92) diff:7.81
+2026-10-18 14:42:07.052|1.2.5.0.48146|Debug|application|Heap pre-allocation - disabled
+2026-10-18 14:42:07.053|1.2.5.0.48146|Debug|application|totalMemoryBeforeCleanUp 3549.699
+2026-10-18 14:42:07.053|1.2.5.0.48146|Debug|application|GC mode switched to Enabled
+2026-10-18 14:42:07.053|1.2.5.0.48146|Debug|application|GC::Collect
+2026-10-18 14:42:07.573|1.2.5.0.48146|Debug|application|GC::Collect Aggressive
+2026-10-18 14:42:08.072|1.2.5.0.48146|Debug|application|collectedMemoryGB 1772.402
+2026-10-18 14:42:08.073|1.2.5.0.48146|Debug|application|GC mode switched to Disabled
+2026-10-18 14:42:23.631|1.2.5.0.48146|Info|application|GameRunned:60.03(12.09) real:72.4(16.66) diff:12.37
+2026-10-18 14:42:23.631|1.2.5.0.48146|Info|application|GameSpawn:60.03(0) real:72.4(0) diff:12.37
+2026-10-18 14:42:23.631|1.2.5.0.48146|Info|application|GameSpawned:60.03(40.07) real:72.4(44.77) diff:12.37
+2026-10-18 14:42:23.631|1.2.5.0.48146|Info|application|GameStarting:60.03(0) real:72.4(0) diff:12.37
+2026-10-18 14:42:23.631|1.2.5.0.48146|Info|application|GameStarted:60.03(0) real:72.4(0) diff:12.37
